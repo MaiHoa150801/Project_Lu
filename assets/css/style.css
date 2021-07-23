@@ -1,0 +1,983 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(../font/RobotoSlab-VariableFont_wght.ttf);
+    font-family: Gothambook;
+}
+
+@font-face {
+    src: url(../font/RobotoSlab-VariableFont_wght.ttf);
+    font-family: RobotoSlab;
+}
+
+* {
+    font-family: Gothambook;
+}
+
+body{
+    margin: 0;
+}
+
+
+.menu-container {
+    margin: auto;
+    max-width: 1240px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-content-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.splitBills {
+    display: flex;
+    justify-content: left;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 52px;
+    margin-bottom: 40px;
+    
+}
+
+.split{
+    font-family: RobotoSlab;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #161616;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    width: auto;
+    margin-right: 265px;
+    margin-top: 58px;
+    margin-bottom: 60px;
+}
+
+.menu a {
+    font-weight: 400;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Gothambook;
+    line-height: 19px;
+    width: auto;
+}
+
+
+.public-li {
+    margin-right: 40px;
+    align-items: center;
+}
+
+
+.login-signup {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 140px;
+    font-size: 20px;
+    font-family: Gothambook;
+
+}
+
+a.login {
+    color: #333;
+    margin-top: 18px;
+    margin-bottom: 60px;
+    margin-right: 27px;
+    font-family: Gothambook;
+}
+
+
+.line {
+    display: inline-block;
+    width: 1px;
+    height: 63px;
+    background: #161616;
+    opacity: 0.6;
+}
+
+
+a.signup {
+    padding: 15px 15px;
+    background-color: #13A0FE;
+    margin-bottom: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 24px;
+    font-family: Gothambook;
+}
+
+.login-signup a {
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* End Menu */
+
+
+
+/* Transaction Start */
+
+.transaction-container {
+    background: linear-gradient(259.16deg, #13A0FE 0%, #0E9AF7 78.07%, #129EFC 78.07%);
+}
+
+.transaction-container .transaction-content {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.transaction-splitbills{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center; 
+}
+
+.phone-image {
+    margin-left: 75px;
+    margin-top: 34px;
+    margin-bottom: 65px;
+    
+}
+
+.transaction-text {
+    padding-left: 79px;
+    max-width: 900px;
+}
+
+.transaction-title {
+    padding-right: 100px;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: Gothambook;
+    color: #FFFFFF;
+    line-height: 55px;
+}
+
+.transaction-title span {
+    font-family: RobotoSlab;
+    font-weight: 700;
+    font-size: 48px;
+    background: #ffffff50;
+}
+
+.transaction-text-child {
+    padding-top: 40px;
+    padding-bottom: 51px;
+}
+
+.transaction-text-child  p {
+    font-size: 28px;
+    font-family: Gothambook;
+    color: #FFFFFF;
+    line-height: 28px;
+}
+
+.google-app .apple, .google {
+    margin-right: 35px;
+}
+
+/* End  Transaction*/
+
+
+/* Social start */
+.social-section {
+    background-color: rgba(48, 48, 255, 0.2);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social a {
+    margin: 0px 50px;
+    flex-wrap: wrap;
+
+}
+
+.digit, .madrin, .venox, .zing {
+    margin-top: 8px;
+    margin-bottom: 51px;
+}
+
+/* Social end */
+
+
+/* Main */
+
+/* socializing Start */
+
+.socializing-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.socializing-title {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 63px;
+}
+
+
+.socializing-content .socializing-title {
+    margin-top: 60px;
+    padding: 0px 350px;
+}
+
+
+.socializing-text {
+    max-width: 972px;
+    margin: 30px 0px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 43px;
+    color: #161616;
+    opacity: 0.6;
+}
+
+.user-image img {
+    margin-right: 5px;
+}
+
+/* Start  Amazing features */
+.amazing-container {
+    margin-top: 78px;
+}
+
+.amazing-content-title {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 65px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 63px;
+
+}
+
+.multi{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.multi-content, .cashless-content {
+    width: 553px;
+}
+
+.multi-title, .safety-title, .cashless-title{
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.multi-image, .cashless-image{
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: auto;
+    height: auto;
+}
+
+.content{
+    margin: 30px 0px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 43px;
+    color: #161616;
+    opacity: 0.6;
+}
+
+.safety{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.safety-content{
+    padding-left: 45px;
+}
+
+
+.cashless{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.amazing-content {
+    padding: 50px;
+    margin: auto;
+    max-width: 1240px;
+    background-color: rgba(18, 158, 252, 0.1);
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+/* Start Promo */
+
+.promo-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.promo-title {
+    padding-top: 35px;
+    padding-bottom: 50px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+} 
+
+
+
+.promo1 {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    height: 436px;
+    margin: 14px;
+    background-color: #129EFC;
+}
+
+.promo-content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.promo1 img{
+    margin-left: -145px;
+}
+
+.promo-content1, .promo-content2, .promo-content3 {
+    padding-top: 76px;
+    font-family: Gothambook;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.promo-content a {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+.promo2 {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    height: 436px;
+    margin: 14px;
+    object-fit: none;
+    padding-top: 46px;
+    background: #FE808C;
+}
+
+.promo3 {
+    width: 345px;
+    height: 436px;
+    margin: 14px;
+    background: #65D58D;
+}
+
+/* End Main */
+
+
+
+/* Footer */
+
+.top-footer {
+    margin-top: 137px;
+    background-color: #13A0FE;
+}
+
+.content-top-footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.top-footer ul {
+    list-style: none;
+}
+
+.footer-learn-more, .footer-social, .footer-subscribe, .footer-download{
+    margin: 0px 65px;
+}
+
+.content-top-footer ul{
+    padding-bottom: 2px;
+}
+
+.content-top-footer ul a{
+    padding-bottom: 4px;
+}
+
+.footer-learn-more, .footer-social{
+    padding-bottom: 50px;
+}
+
+.footer-subscribe{
+    padding-bottom: 194px;
+}
+
+.footer-title {
+    margin-top: 104px;
+    margin-bottom: 30px;
+    font-family: Gothambook;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Gothambook;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.group-input {
+    display: flex;
+}
+
+.input-text {
+    width: 245px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: gothambook;
+    padding-left: 20px;
+}
+
+.btnEmail {
+    padding-right: 71px;
+    border: none;
+    outline: none;
+    background-size: cover;
+}
+
+
+.download-title {
+    margin-top: 104px;
+    margin-bottom: 30px;
+    font-family: Gothambook;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: start;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.down-google {
+    margin-top: 30px;
+    margin-bottom: 74px;
+}
+
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background: #1D2432;
+}
+
+.footer-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding-left: 140px;
+    padding-top: 32px;
+    padding-bottom: 33px;
+}
+
+.inc{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-family: Gothambook;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.inc p{
+    margin-left: 44px;
+}
+
+.choose{
+    margin-left: 457px;
+}
+
+.choice {
+    margin: 0px 17px;
+    text-decoration: none;
+    font-family: Gothambook;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    body{
+        font-family: Gothambook;
+        font-size: auto;
+    }
+
+    .menu-container {
+        max-width: 100%!important;
+    }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        vertical-align: middle;
+        font-family: Gothambook;
+        font-size: 20px;
+    }
+
+    .menu-container {
+        margin: auto;
+        max-width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu-content-row{
+        flex-wrap: wrap;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    
+    .splitBills {
+        justify-content: left;
+        margin: auto;
+        margin-left: 0px;
+        margin-top: 26px;
+        margin-bottom: 20px;
+    }
+    
+    .split{
+        font-family: RobotoSlab;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 17px;
+        color: #161616;
+        text-decoration: none;
+    }
+    
+    .menu{
+        width: auto;
+        margin-right: 320px;
+        margin-top: 28px;
+    }
+    
+    .menu a {
+        font-weight: 400;
+        color: #333;
+        text-decoration: none;
+        font-size:20px;
+        font-family: Gothambook;
+        line-height: 10px;
+        width: auto;
+    }
+    
+    
+    .public-li {
+        margin-right: 20px;
+        align-items: center;
+    }
+    
+    
+    .login-signup {
+        margin-top: 10px;
+        margin-left: -15rem;
+        font-size: 20px;
+        font-family: Gothambook;
+    
+    }
+    
+    a.login {
+        color: #333;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-right: 27px;
+        font-family: Gothambook;
+    }
+    
+    
+    .line {
+        display: inline-block;
+        width: 1px;
+        height: 50px;
+        background: #161616;
+        opacity: 0.6;
+    }
+    
+    
+    a.signup {
+        padding: 10px 10px;
+        background-color: #13A0FE;
+        width: 100%;
+        margin-bottom: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+        color: white;
+        margin-left: 24px;
+        height: 50px;
+        font-family: Gothambook;
+    }
+    
+    .login-signup a {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    /* .transaction-container{
+        width: 100%;
+    } */
+    
+    /* End Menu */
+
+    /* Footer */
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background: #1D2432;
+    }
+    
+    .footer-bottom-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-top: 32px;
+        padding-bottom: 33px;
+    }
+    
+    .inc{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        font-family: Gothambook;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: white;
+    }
+    
+    .inc p{
+        margin-left: 12px;
+    }
+    
+    .choose{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 57px;
+    }
+    
+    .choice {
+        margin: 0px 17px;
+        text-decoration: none;
+        font-family: Gothambook;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    
+}
+
+
+@media (max-width: 575.9px)
+{
+
+    .header{
+        align-items: center  !important;
+        justify-content: space-between;
+    }
+
+    .menu-container{
+        max-width: 90% !important;
+    }
+
+    .splitBills { 
+        margin-top: 22px;  
+    }
+
+    .menu{
+        display: flex;
+        margin-top: 28px;
+    }
+
+
+    .login-signup {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 20px;
+        font-family: Gothambook;
+    
+    }
+    
+    a.login {
+        color: #333;
+        margin-top: 18px;
+        margin-right: 27px;
+        font-family: Gothambook;
+    }
+
+
+    .multi-image img, .safety-image img, .cashless-image img{
+        width: 300px;
+        height: auto;
+    }
+
+
+    .promo-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        background: #1D2432;
+    }
+    
+    .footer-bottom-content {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-top: 32px;
+        padding-bottom: 33px;
+    }
+    
+    .inc{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 150px;
+        font-family: Gothambook;
+        font-style: normal;
+        font-weight: normal;
+        font-size: auto;
+        line-height: 30px;
+        color: white;
+    }
+    
+    .inc p{
+        margin-left: 12px;
+    }
+    
+    .choose{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+    
+    .choice {
+        margin: 0px 17px;
+        text-decoration: none;
+        font-family: Gothambook;
+        font-style: normal;
+        font-weight: normal;
+        font-size: auto;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    
+}
+
+
+
+
+/* @media (max-width: 320px) {
+    .menu-content-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .splitBills {
+        display: flex;
+        justify-content: left;
+        margin: auto;
+        margin-left: 0px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        
+    }
+    
+    .menu{
+        display: flex;
+        margin-right: 165px;
+        margin-top: 22px;
+        margin-bottom: 60px;
+    }
+    
+    .menu a {
+        font-weight: 400;
+        color: #333;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Gothambook;
+        line-height: 10px;
+        width: auto;
+    }
+    
+    
+    .public-li {
+        margin-right: 20px;
+        align-items: center;
+    }
+    
+    
+    .login-signup {
+        display: flex;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 15px;
+        font-family: Gothambook;
+    
+    }
+    
+    a.login {
+        color: #333;
+        margin-top: 18px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        font-family: Gothambook;
+    }
+    
+    
+    .line {
+        display: inline-block;
+        width: 1px;
+        height: 63px;
+        background: #161616;
+        opacity: 0.6;
+    }
+    
+    
+    a.signup {
+        padding: 15px 15px;
+        background-color: #13A0FE;
+        margin-bottom: 40px;
+        text-decoration: none;
+        border-radius: 5px;
+        color: white;
+        margin-left: 24px;
+        font-family: Gothambook;
+    }
+    
+    .login-signup a {
+        font-weight: 400;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .amazing-content{
+        width: 100%;
+        align-items: center;
+    }
+
+    .multi-image, .cashless-image{
+        align-items: center;
+        padding-left: 45px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        width: auto;
+        height: auto;
+    }
+
+    .multi-image img, .cashless-image img{
+        width: 200px;
+        height: auto;
+        margin: auto;
+        margin-left: -30px;
+    }
+
+    .safety-image img{
+        width: 200px;
+        height: auto;
+        margin: auto;
+    } 
+} */
