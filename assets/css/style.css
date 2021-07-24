@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
 }
+
 
 @font-face {
     src: url(../font/RobotoSlab-VariableFont_wght.ttf);
@@ -14,36 +16,30 @@
     font-family: RobotoSlab;
 }
 
-* {
-    font-family: Gothambook;
-}
+    @font-face {
+        font-family: "Gotham";
+        src: url(../font/BOLD/HomepageBaukasten-Bold.ttf);
+        }
+        @font-face {
+        font-family: "Gothaml";
+        src: url(../font//BOOK/HomepageBaukasten-Book.ttf);
+        }
+
+
+
 
 body{
     margin: 0;
+    font-family: Gothaml;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
 }
 
-
-.menu-container {
-    margin: auto;
+/* Start menu */
+.container{
     max-width: 1240px;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu-content-row{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.splitBills {
-    display: flex;
-    justify-content: left;
-    margin: auto;
-    margin-left: 0px;
-    margin-top: 52px;
-    margin-bottom: 40px;
-    
 }
 
 .split{
@@ -55,77 +51,63 @@ body{
     text-decoration: none;
 }
 
-.menu{
-    display: flex;
-    width: auto;
-    margin-right: 265px;
-    margin-top: 58px;
-    margin-bottom: 60px;
+#login a{
+    margin-left: 300px;
+}
+.log{
+    margin-left: 30px;
 }
 
-.menu a {
-    font-weight: 400;
+.line{
+    margin-left: -2px;
+}
+
+.line img{
+    height: 40px;
+}
+
+.navbar-toggler, .collapse{
+    margin-left: 10px;
     color: #333;
-    text-decoration: none;
+    font-family: Gothaml;
+    font-style: normal;
+    font-weight: normal;
     font-size: 20px;
-    font-family: Gothambook;
     line-height: 19px;
-    width: auto;
 }
 
 
-.public-li {
-    margin-right: 40px;
-    align-items: center;
+
+.d-flex{
+    margin-top: 26px;
+    margin-bottom: 23px;
 }
 
+#navbarSupportedContent ul{
+    margin-top: 15px;
+}
 
-.login-signup {
-    display: flex;
-    margin-top: 40px;
-    margin-left: 140px;
+#navbarSupportedContent ul li{
+    margin-left: 40px;
+}
+
+#navbarSupportedContent ul #menu{
+    font-family: Gothaml;
+    font-style: normal;
+    font-weight: normal;
     font-size: 20px;
-    font-family: Gothambook;
-
+    line-height: 19px;
 }
 
-a.login {
-    color: #333;
-    margin-top: 18px;
-    margin-bottom: 60px;
-    margin-right: 27px;
-    font-family: Gothambook;
-}
-
-
-.line {
-    display: inline-block;
-    width: 1px;
-    height: 63px;
-    background: #161616;
-    opacity: 0.6;
-}
-
-
-a.signup {
-    padding: 15px 15px;
+#signup{
+    font-family: Gothaml;
+    margin-left: -17px;
+    font-size: 20px;
+    color: #ffffff;
     background-color: #13A0FE;
-    margin-bottom: 40px;
-    text-decoration: none;
-    border-radius: 5px;
-    color: white;
-    margin-left: 24px;
-    font-family: Gothambook;
 }
 
-.login-signup a {
-    font-weight: 400;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-/* End Menu */
-
+/* End menu */
 
 
 /* Transaction Start */
@@ -163,7 +145,7 @@ a.signup {
     padding-right: 100px;
     font-size: 48px;
     font-weight: 500;
-    font-family: Gothambook;
+    font-family: Gothaml;
     color: #FFFFFF;
     line-height: 55px;
 }
@@ -182,7 +164,7 @@ a.signup {
 
 .transaction-text-child  p {
     font-size: 28px;
-    font-family: Gothambook;
+    font-family: Gothaml;
     color: #FFFFFF;
     line-height: 28px;
 }
@@ -232,7 +214,7 @@ a.signup {
 }
 
 .socializing-title {
-    font-family: Gotham;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -249,7 +231,7 @@ a.signup {
 .socializing-text {
     max-width: 972px;
     margin: 30px 0px;
-    font-family: Gotham;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
@@ -271,7 +253,7 @@ a.signup {
     align-items: center;
     text-align: center;
     margin-bottom: 65px;
-    font-family: Gotham;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -291,7 +273,7 @@ a.signup {
 }
 
 .multi-title, .safety-title, .cashless-title{
-    font-family: Gotham;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -309,7 +291,7 @@ a.signup {
 
 .content{
     margin: 30px 0px;
-    font-family: Gotham;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
@@ -356,7 +338,7 @@ a.signup {
 .promo-title {
     padding-top: 35px;
     padding-bottom: 50px;
-    font-family: Gotham;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -384,9 +366,9 @@ a.signup {
     margin-left: -145px;
 }
 
-.promo-content1, .promo-content2, .promo-content3 {
+.promo-content1, .promo-content3 {
     padding-top: 76px;
-    font-family: Gothambook;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -397,6 +379,26 @@ a.signup {
 .promo-content a {
     color: #FFFFFF;
     font-weight: 700;
+}
+
+
+.promo-content2{
+    align-items: center;
+    margin-left: 55px;
+    max-width: 234px;
+    padding-top: 30px;
+    font-family: Gothaml;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.promo-content2 span a{
+    margin-top: -20px;
+}
+.promo-content2 .fun{
+    margin-top: 60px;
 }
 
 
@@ -453,6 +455,14 @@ a.signup {
     padding-bottom: 4px;
 }
 
+.footer-learn-more ul li{
+    margin-left: -33px;
+}
+
+.footer-social ul li{
+    margin-left: -33px;
+}
+
 .footer-learn-more, .footer-social{
     padding-bottom: 50px;
 }
@@ -460,11 +470,20 @@ a.signup {
 .footer-subscribe{
     padding-bottom: 194px;
 }
+.footer-title-sub, .download-title {
+    margin-top: 84px;
+    margin-bottom: 30px;
+    font-family: Gothaml;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
 
 .footer-title {
     margin-top: 104px;
     margin-bottom: 30px;
-    font-family: Gothambook;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -477,7 +496,7 @@ li {
 
 li a {
     text-decoration: none;
-    font-family: Gothambook;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -495,7 +514,7 @@ li a {
     border: none;
     outline: none;
     font-size: 16px;
-    font-family: gothambook;
+    font-family: Gothaml;
     padding-left: 20px;
 }
 
@@ -508,9 +527,8 @@ li a {
 
 
 .download-title {
-    margin-top: 104px;
     margin-bottom: 30px;
-    font-family: Gothambook;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -543,9 +561,9 @@ li a {
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    padding-left: 140px;
+    padding-left: 53px;
     padding-top: 32px;
-    padding-bottom: 33px;
+    padding-bottom: 17px;
 }
 
 .inc{
@@ -553,7 +571,7 @@ li a {
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    font-family: Gothambook;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -562,17 +580,18 @@ li a {
 }
 
 .inc p{
-    margin-left: 44px;
+    margin-left: 147px;
 }
 
 .choose{
-    margin-left: 457px;
+    margin-top: -16px;
+    margin-left: 435px;
 }
 
 .choice {
     margin: 0px 17px;
     text-decoration: none;
-    font-family: Gothambook;
+    font-family: Gothaml;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -582,13 +601,25 @@ li a {
 
 @media (min-width: 992px) and (max-width: 1200px){
     body{
-        font-family: Gothambook;
+        font-family: Gothaml;
         font-size: auto;
+        width: 100%;
     }
 
-    .menu-container {
-        max-width: 100%!important;
+    .transaction-container {
+        width: 100%;
+        background: linear-gradient(259.16deg, #13A0FE 0%, #0E9AF7 78.07%, #129EFC 78.07%);
     }
+
+    .social-section {
+        width: 100%;
+        background-color: rgba(48, 48, 255, 0.2);
+    }
+
+    .main-content{
+        width: 100%;
+    }
+
     
 }
 
@@ -599,113 +630,13 @@ li a {
         padding: 0;
         width: 100%;
         vertical-align: middle;
-        font-family: Gothambook;
+        font-family: Gothaml;
         font-size: 20px;
     }
 
-    .menu-container {
-        margin: auto;
-        max-width: auto;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .menu-content-row{
-        flex-wrap: wrap;
-        margin-left: 50px;
-        margin-top: 20px;
-    }
-    
-    
-    .splitBills {
-        justify-content: left;
-        margin: auto;
-        margin-left: 0px;
-        margin-top: 26px;
-        margin-bottom: 20px;
-    }
-    
-    .split{
-        font-family: RobotoSlab;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 17px;
-        color: #161616;
-        text-decoration: none;
-    }
-    
-    .menu{
-        width: auto;
-        margin-right: 320px;
-        margin-top: 28px;
-    }
-    
-    .menu a {
-        font-weight: 400;
-        color: #333;
-        text-decoration: none;
-        font-size:20px;
-        font-family: Gothambook;
-        line-height: 10px;
-        width: auto;
-    }
-    
-    
-    .public-li {
-        margin-right: 20px;
-        align-items: center;
-    }
-    
-    
-    .login-signup {
-        margin-top: 10px;
-        margin-left: -15rem;
-        font-size: 20px;
-        font-family: Gothambook;
-    
-    }
-    
-    a.login {
-        color: #333;
-        margin-top: 10px;
-        margin-bottom: 0px;
-        margin-right: 27px;
-        font-family: Gothambook;
-    }
-    
-    
-    .line {
-        display: inline-block;
-        width: 1px;
-        height: 50px;
-        background: #161616;
-        opacity: 0.6;
-    }
-    
-    
-    a.signup {
-        padding: 10px 10px;
-        background-color: #13A0FE;
+    .socializing-title{
         width: 100%;
-        margin-bottom: 10px;
-        text-decoration: none;
-        border-radius: 5px;
-        color: white;
-        margin-left: 24px;
-        height: 50px;
-        font-family: Gothambook;
     }
-    
-    .login-signup a {
-        font-weight: 400;
-        font-size: 20px;
-    }
-
-    /* .transaction-container{
-        width: 100%;
-    } */
-    
-    /* End Menu */
 
     /* Footer */
     .footer-bottom {
@@ -732,7 +663,7 @@ li a {
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
-        font-family: Gothambook;
+        font-family: Gothaml;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
@@ -753,7 +684,91 @@ li a {
     .choice {
         margin: 0px 17px;
         text-decoration: none;
-        font-family: Gothambook;
+        font-family: Gothaml;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width:767.9px) {
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        vertical-align: middle;
+        font-family: Gothaml;
+        font-size: 20px;
+    }
+    .promo-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .multi-image img, .safety-image img, .cashless-image img{
+        width: 450px;
+        height: auto;
+    }
+
+    .socializing-title{
+        width: 100%;
+    }
+
+    .socializing-content .socializing-title {
+        margin-top: 60px;
+        padding: 0px 100px;
+    }
+
+    /* Footer */
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background: #1D2432;
+    }
+    
+    .footer-bottom-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 32px;
+        padding-bottom: 33px;
+    }
+    
+    .inc{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        font-family: Gothaml;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: white;
+    }
+    
+    .choose{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 7px;
+    }
+    
+    .choice {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        margin: 0px 12px;
+        text-decoration: none;
+        font-family: Gothaml;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
@@ -766,46 +781,21 @@ li a {
 
 @media (max-width: 575.9px)
 {
-
-    .header{
-        align-items: center  !important;
-        justify-content: space-between;
+    body{
+        width: 100%;
     }
-
-    .menu-container{
-        max-width: 90% !important;
-    }
-
-    .splitBills { 
-        margin-top: 22px;  
-    }
-
-    .menu{
-        display: flex;
-        margin-top: 28px;
-    }
-
-
-    .login-signup {
-        display: flex;
-        margin-top: 20px;
-        margin-left: 40px;
-        font-size: 20px;
-        font-family: Gothambook;
-    
-    }
-    
-    a.login {
-        color: #333;
-        margin-top: 18px;
-        margin-right: 27px;
-        font-family: Gothambook;
-    }
-
-
     .multi-image img, .safety-image img, .cashless-image img{
         width: 300px;
         height: auto;
+    }
+
+    .socializing-title{
+        width: 100%;
+    }
+
+    .socializing-content .socializing-title {
+        margin-top: 60px;
+        padding: 0px 50px;
     }
 
 
@@ -835,7 +825,7 @@ li a {
         display: flex;
         flex-wrap: wrap;
         margin-right: 150px;
-        font-family: Gothambook;
+        font-family: Gothaml;
         font-style: normal;
         font-weight: normal;
         font-size: auto;
@@ -856,7 +846,7 @@ li a {
     .choice {
         margin: 0px 17px;
         text-decoration: none;
-        font-family: Gothambook;
+        font-family: Gothaml;
         font-style: normal;
         font-weight: normal;
         font-size: auto;
@@ -868,116 +858,3 @@ li a {
 
 
 
-
-/* @media (max-width: 320px) {
-    .menu-content-row{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-      
-    .splitBills {
-        display: flex;
-        justify-content: left;
-        margin: auto;
-        margin-left: 0px;
-        margin-top: 25px;
-        margin-bottom: 10px;
-        
-    }
-    
-    .menu{
-        display: flex;
-        margin-right: 165px;
-        margin-top: 22px;
-        margin-bottom: 60px;
-    }
-    
-    .menu a {
-        font-weight: 400;
-        color: #333;
-        text-decoration: none;
-        font-size: 15px;
-        font-family: Gothambook;
-        line-height: 10px;
-        width: auto;
-    }
-    
-    
-    .public-li {
-        margin-right: 20px;
-        align-items: center;
-    }
-    
-    
-    .login-signup {
-        display: flex;
-        margin-top: 0px;
-        margin-left: 0px;
-        font-size: 15px;
-        font-family: Gothambook;
-    
-    }
-    
-    a.login {
-        color: #333;
-        margin-top: 18px;
-        margin-bottom: 20px;
-        margin-right: 10px;
-        font-family: Gothambook;
-    }
-    
-    
-    .line {
-        display: inline-block;
-        width: 1px;
-        height: 63px;
-        background: #161616;
-        opacity: 0.6;
-    }
-    
-    
-    a.signup {
-        padding: 15px 15px;
-        background-color: #13A0FE;
-        margin-bottom: 40px;
-        text-decoration: none;
-        border-radius: 5px;
-        color: white;
-        margin-left: 24px;
-        font-family: Gothambook;
-    }
-    
-    .login-signup a {
-        font-weight: 400;
-        font-size: 20px;
-        text-decoration: none;
-    }
-
-    .amazing-content{
-        width: 100%;
-        align-items: center;
-    }
-
-    .multi-image, .cashless-image{
-        align-items: center;
-        padding-left: 45px;
-        padding-top: 20px;
-        padding-bottom: 50px;
-        width: auto;
-        height: auto;
-    }
-
-    .multi-image img, .cashless-image img{
-        width: 200px;
-        height: auto;
-        margin: auto;
-        margin-left: -30px;
-    }
-
-    .safety-image img{
-        width: 200px;
-        height: auto;
-        margin: auto;
-    } 
-} */

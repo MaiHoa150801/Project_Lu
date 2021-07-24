@@ -8,41 +8,61 @@
     <title>SplitBills</title>
 
     <!-- Link Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font/RobotoSlab-VariableFont_wght.ttf">
     
     <!-- CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="header">
-        <div class="menu-container">
-                <div class="menu-content">
-                    <div class="menu-content-row ">
-                        <div class="splitBills">
-                            <a class="split" href="#">SplitBills</a>
-                        </div>
-                        <div class="menu">
-                                <a class="public-li" href="#">How it works</a>
-                                <a class="public-li" href="#">Features</a>
-                                <a class="public-li" href="#">Blog</a>
-                                <a class="public-li" href="#">Help</a>
-                        </div>
+        <!-- Start menu -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+            <div class="container">
+                <div class="row w-100">
+                    <div class="col-12 d-flex align-items-center">
+                        <a class="split" href="#">SplitBills</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="menu" href="#">How it works</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="menu" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="menu" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="menu" href="#">Help</a>
+                                </li>
+                                <li class="nav-item ms-auto" id="login">
+                                    <a class="nav-link" id="log" href="#">Login</a>
+                                </li>
 
-                        <div class="login-signup">
-                            <a href="#" class="login">Log in</a>
-                            <div class="line"></div>
-                            <a href="#" class="signup">Sign up</a>
+                                <li class="nav-item">
+                                    <a class="line" href="#"><img src="assets/images/Line 10.svg" alt=""></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link btn" href="#" id="signup">Sign up</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-        </div>
-        <!-- End - Menu -->
+            </div>
+        </nav>
+        <!-- Menu End -->
 
         <!-- Transaction start -->
         <div class="transaction">
@@ -179,9 +199,9 @@
                             <img src="assets/images/promo/pbgYcq3_Zx0.svg" alt="">
                         </div>
                         <div class="promo2">
-                            <div class="promo-content2">
+                            <div class="promo-content2 align-items-center">
                                 <span><a href="">SplitBills</a> </span>
-                                <span>Can Be FUN!</span>
+                                <span>Can Be </span><span class="fun">FUN!</span>
                             </div>
 
                             <img src="assets/images/promo/ILpCscZCeR8.svg" alt="">
@@ -229,7 +249,7 @@
                         </div>
 
                         <div class="footer-subscribe">
-                                <div class="footer-title">
+                                <div class="footer-title-sub">
                                     <p>Subscribe</p>
                                 </div>
                                 <form action="#" method="">
