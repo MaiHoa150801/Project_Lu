@@ -2,28 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
-}
-
-
-@font-face {
-    src: url(../font/RobotoSlab-VariableFont_wght.ttf);
-    font-family: Gothambook;
-}
-
-@font-face {
-    src: url(../font/RobotoSlab-VariableFont_wght.ttf);
-    font-family: RobotoSlab;
 }
 
     @font-face {
         font-family: "Gotham";
         src: url(../font/BOLD/HomepageBaukasten-Bold.ttf);
-        }
-        @font-face {
+    }
+
+    @font-face {
         font-family: "Gothaml";
         src: url(../font//BOOK/HomepageBaukasten-Book.ttf);
-        }
+    }
 
 
 
@@ -43,12 +32,13 @@ body{
 }
 
 .split{
-    font-family: RobotoSlab;
+    height: 40px;
+    font-family: Roboto Slab;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
     color: #161616;
-    text-decoration: none;
+
 }
 
 #login a{
@@ -66,6 +56,16 @@ body{
     height: 40px;
 }
 
+.d-flex .split{
+    margin-top: -23px;
+    margin-bottom: -19px;
+}
+
+.d-flex .collapse{
+    margin-top: 1px;
+    margin-bottom: 11px;
+}
+
 .navbar-toggler, .collapse{
     margin-left: 10px;
     color: #333;
@@ -76,11 +76,18 @@ body{
     line-height: 19px;
 }
 
+.collapse ul li{
+    font-family: Gothaml;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
+}
 
 
 .d-flex{
-    margin-top: 26px;
-    margin-bottom: 23px;
+    margin-top: 28px;
+    margin-bottom: 25px;
 }
 
 #navbarSupportedContent ul{
@@ -133,41 +140,45 @@ body{
     margin-left: 75px;
     margin-top: 34px;
     margin-bottom: 65px;
-    
 }
 
 .transaction-text {
     padding-left: 79px;
     max-width: 900px;
+    margin-top: 129px;
+    margin-bottom: 168px;
 }
 
 .transaction-title {
     padding-right: 100px;
     font-size: 48px;
-    font-weight: 500;
+    font-weight: normal;
     font-family: Gothaml;
     color: #FFFFFF;
     line-height: 55px;
 }
 
 .transaction-title span {
-    font-family: RobotoSlab;
+    font-family: Roboto Slab;
     font-weight: 700;
     font-size: 48px;
     background: #ffffff50;
 }
 
 .transaction-text-child {
-    padding-top: 40px;
-    padding-bottom: 51px;
+    padding-top: 24px;
+    padding-bottom: 35px;
 }
 
 .transaction-text-child  p {
     font-size: 28px;
     font-family: Gothaml;
+    font-style: normal;
+    font-weight: normal;
     color: #FFFFFF;
     line-height: 28px;
 }
+
 
 .google-app .apple, .google {
     margin-right: 35px;
@@ -240,6 +251,10 @@ body{
     opacity: 0.6;
 }
 
+.user-image{
+    margin-top: -16px;
+}
+
 .user-image img {
     margin-right: 5px;
 }
@@ -283,8 +298,6 @@ body{
 .multi-image, .cashless-image{
     align-items: center;
     padding-left: 45px;
-    padding-top: 50px;
-    padding-bottom: 50px;
     width: auto;
     height: auto;
 }
@@ -337,7 +350,7 @@ body{
 
 .promo-title {
     padding-top: 35px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-family: Gothaml;
     font-style: normal;
     font-weight: bold;
@@ -455,6 +468,7 @@ body{
     padding-bottom: 4px;
 }
 
+
 .footer-learn-more ul li{
     margin-left: -33px;
 }
@@ -471,9 +485,9 @@ body{
     padding-bottom: 194px;
 }
 .footer-title-sub, .download-title {
-    margin-top: 84px;
+    margin-top: 104px;
     margin-bottom: 30px;
-    font-family: Gothaml;
+    font-family: Gotham;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -483,11 +497,19 @@ body{
 .footer-title {
     margin-top: 104px;
     margin-bottom: 30px;
-    font-family: Gothaml;
+    font-family: Gotham;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     color: #FFFFFF;
+}
+
+.footer-learn-more li{
+    margin-top: -4px;
+}
+
+.footer-social li{
+    margin-top: -4px;
 }
 
 li {
@@ -526,16 +548,6 @@ li a {
 }
 
 
-.download-title {
-    margin-bottom: 30px;
-    font-family: Gothaml;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    color: #FFFFFF;
-    text-align: start;
-}
-
 .download {
     display: flex;
     align-items: center;
@@ -561,7 +573,7 @@ li a {
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    padding-left: 53px;
+    padding-left: 74px;
     padding-top: 32px;
     padding-bottom: 17px;
 }
@@ -571,6 +583,7 @@ li a {
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    margin-left: 125px;
     font-family: Gothaml;
     font-style: normal;
     font-weight: normal;
@@ -579,13 +592,10 @@ li a {
     color: white;
 }
 
-.inc p{
-    margin-left: 147px;
-}
 
 .choose{
     margin-top: -16px;
-    margin-left: 435px;
+    margin-left: 430px;
 }
 
 .choice {
