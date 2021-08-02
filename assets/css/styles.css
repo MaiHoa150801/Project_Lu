@@ -22,6 +22,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  border: none !important;
 
 }
 
@@ -35,6 +36,7 @@ header .backgrounp{
   background: -ms-linear-gradient(top, rgba(49, 49, 49, 0.4) 10%, #1C1C1C 30%);
   background: -webkit-gradient(linear,left top,left bottom,color-stop(0.3, rgba(49, 49, 49, 0.4)),color-stop(0.9, #1C1C1C));
   opacity: 2.5;
+  border: none !important;
   /* filter: alpha(opacity=80); */
 }
 
@@ -180,7 +182,6 @@ header .backgrounp{
 .young-married{
   display: flex;
   max-width: 388px;
-  height: auto;
   margin-top: 40px;
   margin-left: 249px;
   margin-right: 249px;
@@ -192,7 +193,6 @@ header .backgrounp{
   font-weight: normal;
   font-size: 28px;
   line-height: 42px;
-  align-items: center;
   text-align: center;
 
   color: #FFFFFF;
@@ -1099,6 +1099,8 @@ footer{
 }
 
 #footer-content{
+  display: flex;
+  flex-wrap: wrap;
   max-width: 1240px !important;
   margin-left: -15px;
   margin-right: -15px;

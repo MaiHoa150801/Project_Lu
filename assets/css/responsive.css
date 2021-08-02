@@ -17,6 +17,10 @@
     align-items: center !important;
   }
 
+  #about-col{
+    align-items: center;
+    margin: auto;
+  }
   
 
 }
@@ -26,48 +30,50 @@
   .navbar{
     margin-left: 50px !important;
     margin-right: 50px !important;
-}
+  }
 
-#section-about{
-  margin-left: 30% !important;
-  margin-right: 30% !important;
-}
+  #swiper-section5{
+    margin-left: 30% !important;
+  }
 
-.about-main, .ambitious-title, .ambitious-content{
-  margin-left: 105px !important;
-}
+  .about-main, .ambitious-title, .ambitious-content{
+    margin-left: 105px !important;
+  }
 
-#team-image{
-  margin-left: 20%;
-  margin-bottom: 100px;
-}
+  #team-image{
+    margin-left: 20%;
+    margin-bottom: 100px;
+  }
 
-#section-journal{
-  margin-left: 15%;
-}
+  #section-journal{
+    margin-left: 15%;
+  }
 
-#our-work-title{
-  margin-left: -50px;
-}
-
-#swiper-slide{
-      margin-left: 20% ;
-    }
+  #our-work-title p{
+    margin-left: -100px;
+  }
 
 
-    .design-interior {
-      text-align: center;
-      align-items: center;
-      margin-left: 10px !important;
-    }
 
-    .image1, .library-content{
-      margin-left: 300px !important;
-    }
 
-    #logo-footer{
-      margin-left: 30px;
-    }
+  #swiper-slide{
+        margin-left: 20% ;
+      }
+
+
+      .design-interior {
+        text-align: center;
+        align-items: center;
+        margin-left: 10px !important;
+      }
+
+      .image1, .library-content{
+        margin-left: 300px !important;
+      }
+
+      #logo-footer{
+        margin-left: 30px;
+      }
 
 }
 
@@ -78,10 +84,108 @@
       margin-right: 50px !important;
   }
 
-  .about-main, .ambitious-title, .ambitious-content{
-    margin-left: 35px;
+  #about-col{
+    margin-left: 10%;
   }
 
+  .about-main{
+    margin-left: 60%;
+    margin-right: 40%;
+    align-items: center;
+  }
+
+  .ambitious-title{
+    margin-left: 15%;
+    margin-right: 40%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .young-married{
+    margin-left: 150px;
+    margin-right: -200px;
+
+  }
+
+  .ambitious-content{
+    margin-left: 15%;
+    margin-right: -150px;
+    text-align: center;
+    align-items: center;
+  }
+
+  #about-img{
+    margin-top: 30px;
+    margin-left: 15%;
+  }
+
+  #team{
+    flex-direction: column;
+  }
+
+  #team-image{
+    margin-left: -170px !important;
+  }
+
+.team-main{
+  margin-left: 150px;
+  text-align: center;
+}
+
+.great-team{
+  margin-left: -40px;
+  margin-right: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.team-content{
+  margin-left: -100px;
+  margin-right: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+#journal-title{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+#row-content-journal{
+  margin-left: 30px;
+}
+
+
+#our-work-title p{
+  margin-left: 41%;
+  text-align: center;
+}
+
+#our-services-title p{
+  margin-left: 35%;
+  text-align: center;
+}
+
+
+  #swiper-slide{
+    margin-left: -260px !important;
+  }
+
+  #swiper-section5{
+    margin-left: -340px !important;
+
+  }
+
+  .number{
+    margin-top: -32px !important;
+    margin-left: 850px;
+  
+  }
+
+  #col-team{
+    margin-left: 16%;
+  }
   #team-image{
     margin-left: 35px;
     margin-bottom: 100px;
@@ -110,130 +214,156 @@
         margin-left: 30px;
       }
 
+      .slider-number{
+        max-width: 30px !important;
+        margin-left: 900px !important;
+      }
+
+      #footer-content{
+        flex-wrap: wrap;
+      }
+
 
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
 
-    .navbar{
-        margin-left: 50px !important;
-        margin-right: 50px !important;
-    }
-
-    #team{
-        margin-right: 700px !important;
-        flex-direction: column !important;
-    }
-
-    #col-team{
-        flex-wrap: wrap;
-        margin-top: 100px !important;
-    }
-
-      
-      .team-content{
-        margin-left: 40px;
-        margin-right: -15px;
-      }
-      
-      .great-team{
-          width: 572px !important;
+  .navbar{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
       }
 
-      .team-content{
-          width: 579px !important;
-      }
-      
-      .section-journal{
-          margin-left: 50px;
-          margin-right: 50px;
-          align-items: center;
+      #about-col{
+        margin-left: 10%;
       }
 
-      #row1-section-about{
-        margin-right: 50px;
+      .about-main{
+        margin-left: 60%;
+        margin-right: 40%;
+        align-items: center;
+      }
+
+      .ambitious-title{
+        margin-left: 10%;
+        margin-right: 30%;
+        align-items: center;
+        text-align: center;
       }
 
 
 
-      #our-work-title{
-          margin-left: -150px !important;
-      }
-
-      .about-main, .ambitious-title, .ambitious-content{
-        margin-left: 35px;
-      }
-
-      #our-work-title{
-        margin-left: 10px !important;
-      }
-      
-
-      .image-slide1 img{
-        width: 380px;
-        height: 482px !important;
-        margin-left: 60px !important;
-      }
-
-
-      #swiper-slide1{
-        margin-left: -50px !important;
-      }
-
-
-
-
-      .design-interior {
+      .ambitious-content{
+        margin-left: 10%;
+        margin-right: -300px;
         text-align: center;
         align-items: center;
-        margin-left: 10px !important;
-      }
-      
-      .image-slide1:hover .design-interior {
-        opacity: 1;
-      }
-      
-      .design-hover {
-        align-items: center;
-        width: 300px;
-
-        margin-left: 23px;
-      
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 38px;
-        line-height: 52px;
-    
-      
-        color: #FFFFFF;
-      
-      }
-      
-      
-      .swiper-pagination{
-        margin-left: 20px !important;
       }
 
-      .slider-number{
-        max-width: 30px !important;
-        margin-left: 950px !important;
+      #about-img{
+        margin-top: 30px;
+        margin-left: 15%;
+      }
+
+      #team{
+        flex-direction: column;
+      }
+
+      #team-image{
+        margin-left: -170px !important;
+      }
+
+      .team-main{
+      margin-left: 150px;
+      text-align: center;
+      }
+
+      .great-team{
+      margin-left: -40px;
+      margin-right: 100px;
+      align-items: center;
+      text-align: center;
+      }
+
+      .team-content{
+      margin-left: -100px;
+      margin-right: 50px;
+      align-items: center;
+      text-align: center;
+      }
+
+      #journal-title{
+      margin-left: 100px;
+      margin-right: 100px;
+      text-align: center;
+      }
+
+      #row-content-journal{
+      margin-left: 30px;
       }
 
 
-      #swiper-section5{  
-        margin-left: 60px;
-      
+      #our-work-title p{
+      margin-left: 41%;
+      text-align: center;
       }
 
-      #services-img-content1{
-        margin-left: 125px;
+      #our-services-title p{
+      margin-left: 35%;
+      text-align: center;
       }
 
-      #logo-footer{
-        margin-left: 30px;
+
+      #swiper-slide{
+        margin-left: -260px !important;
       }
+
+      #swiper-section5{
+        margin-left: -340px !important;
+
+      }
+
+      .number{
+        margin-top: -32px !important;
+        margin-left: 850px;
+
+      }
+
+      #col-team{
+        margin-left: 16%;
+      }
+      #team-image{
+        margin-left: 35px;
+        margin-bottom: 100px;
+      }
+
+      #section-journal{
+        margin-left: 15%;
+      }
+
+      #our-work-title{
+        margin-left: -50px;
+      }
+
+      #swiper-slide{
+            margin-left: 20% ;
+          }
+
+
+    .design-interior {
+      text-align: center;
+      align-items: center;
+      margin-left: 10px !important;
+    }
+
+    #logo-footer{
+      margin-left: 30px;
+    }
+
+    .slider-number{
+      max-width: 30px !important;
+      margin-left: 900px !important;
+    }
 
 
       
