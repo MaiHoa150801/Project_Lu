@@ -13,16 +13,6 @@ body{
     src: url(../font/font/ABeeZee-Regular.ttf);
   }
 
-  .fadeIn .container{
-    margin-top: 199px;
-
-    width: 885px;
-    height: auto;
-    margin-bottom: 199px !important;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-  }
 
 .header {
   max-width: 100%;
@@ -38,11 +28,36 @@ body{
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center center;
+  border: none;
   
 
 }
 
+.nav{
+    display: flex;
+    align-items: center;
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    width: 100% !important;
+    height: 96px !important;
+    z-index: 1000;
+}
 
+.active-menu {
+  background-color: #1C1C1C;
+}
+
+.fadeIn .container{
+  margin-top: 199px;
+
+  width: 885px;
+  height: auto;
+  margin-bottom: 199px !important;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
 
  .navbar{
   display: flex;
@@ -56,10 +71,14 @@ body{
   background: none;
 }
 
+.navbar-brand a{
+  font-weight: bold  ;
+
+}
 .navbar-brand{
   width: 143px;
   height: 45px;
-  padding: 0;
+  padding: 0 !important;
   margin-top: 1px;
   margin-bottom: 1px;
   margin-left: -16px;
@@ -92,7 +111,7 @@ body{
 
 .collapse ul li a{
   height: 27px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -113,6 +132,7 @@ body{
 #about{
   width: 60px;
   padding: 0;
+
 }
 
 #journal{
@@ -141,10 +161,10 @@ body{
 }
 
 
-#contact-us button{
+#contact-us button a{
   padding: 0;
 
-  font-family: Poppins;
+  font-family: ABeeZee !important;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -161,6 +181,7 @@ body{
   font-size: 68px;
   line-height: 80px;
   flex-wrap: wrap;
+  text-align: center !important;
 
   color: #FFFFFF;
 }
@@ -181,9 +202,10 @@ body{
 .young-married{
   display: flex;
   max-width: 388px;
+  height: 84px;
   margin-top: 40px;
-  margin-left: 249px;
-  margin-right: 249px;
+  margin-left: 233px;
+  margin-right: 233px;
   align-items: center;
   flex-wrap: wrap;
   
@@ -195,6 +217,8 @@ body{
   text-align: center;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 }
 
 #discover-more{
@@ -216,7 +240,10 @@ body{
 
 .main{
   background: #1C1C1C;
+  border: none;
 }
+
+ 
 
 .main .container{
   padding-top: 70px;
@@ -275,6 +302,8 @@ body{
   line-height: 57px;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 }
 
 
@@ -293,7 +322,10 @@ body{
   line-height: 33px;
   align-items: center;
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 
+  
 }
 
 
@@ -460,14 +492,16 @@ body{
 }
 
 .team-content{
-  margin-left: 40px;
   margin-right: -56px;
+  margin-left: 26px;
+
 }
 
 .team-content{
   max-width: 579px !important;
   height: auto;
   margin-top: 30px;
+  /* margin-left: -15px; */
   text-align: right;
 
   font-family: Poppins;
@@ -477,11 +511,13 @@ body{
   line-height: 33px;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 }
 
 .team-content span{
-  margin-right: 3px;
-  margin-left: -18px;
+  margin-right: 1px;
+  margin-left: -15px;
   font-family: Poppins;
   font-style: italic;
   font-weight: normal;
@@ -577,6 +613,8 @@ body{
   align-items: center;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 
 }
 
@@ -596,6 +634,8 @@ body{
   line-height: 33px;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 }
 
 .journal-more, .family-more, .consistent-more{
@@ -605,6 +645,7 @@ body{
 }
 
 .journal-more a, .family-more a, .consistent-more a{
+  width: 107px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -624,7 +665,7 @@ body{
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
 
   display: flex;
@@ -648,6 +689,8 @@ body{
   align-items: center;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 
 }
 
@@ -662,6 +705,8 @@ body{
   line-height: 33px;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 }
 
 .consistent-title{
@@ -676,6 +721,8 @@ body{
   align-items: center;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 }
 
 .consistent-content{
@@ -689,19 +736,14 @@ body{
   line-height: 33px;
 
   color: #FFFFFF;
-
+  overflow: hidden;
+  display: -webkit-box;
 }
 
 
 
 /*=================== Start Section 4 - OUR WORK ================ */
 
-/* .section-swiper{
-  max-width: 1240px;
-  margin: auto;
-  margin-top: 121px;
-  align-items: center;
-} */
 
 #swiper-section4{
   max-width: 1240px !important;
@@ -785,6 +827,8 @@ body{
   align-items: center;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 
 }
 
@@ -846,16 +890,7 @@ body{
   object-fit: cover;
 
 }
-/* .section-swiper .container {
-  max-width: 1240px;
-  align-items: center;
-  justify-content: center;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-} */
+
 
 
 .swiper-slide{
@@ -903,12 +938,13 @@ body{
 
 .swiper-pagination{
   position:absolute;
-  width: 200px !important;
-  margin-right: 330px !important;
-  margin-left: -30px;
+  width: 164px !important;
+  /* margin-right: 330px !important; */
+  margin-left: 0 !important;
   margin-top: 6px;
 
 }
+
 
 .swiper-pagination .swiper-pagination-bullet{
   margin-top: 33px;
@@ -1032,7 +1068,8 @@ body{
 }
 
 .swiper-pagination1{
-  width: 200px !important;
+  width: 170px !important;
+  align-items: center !important;
 }
 
 .swiper-pagination1 span{
@@ -1040,6 +1077,7 @@ body{
   background: #d1d0d0 !important;
   width: 13px;
   height: 13px;
+  
 }
 
 #services-img-content1{
@@ -1077,6 +1115,8 @@ body{
   line-height: 36px;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 
   opacity: 0.6;
 }
@@ -1093,6 +1133,8 @@ body{
   line-height: 42px;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
 
 }
 
@@ -1208,6 +1250,8 @@ footer{
   margin-left: -15px;
   margin-right: -15px;
 
+  /* padding: 0 !important; */
+
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -1215,10 +1259,18 @@ footer{
   line-height: 27px;
 
   color: #FFFFFF;
+
 }
 
 .jurnal-footer, .work-footer{
   margin-top: 20px;
+}
+
+.work-footer{
+  font-family: 'Poppins', sans-serif;
+  width: 88px;
+  height: 27px;
+  padding: 0;
 }
 
 
