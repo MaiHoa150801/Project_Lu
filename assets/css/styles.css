@@ -175,18 +175,36 @@ body{
 
 
 .masthead-subheading{
+  max-width: 885px;
+  height: 160px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+
   font-family: ABeeZee;
   font-style: normal;
   font-weight: normal;
   font-size: 68px;
   line-height: 80px;
-  flex-wrap: wrap;
-  text-align: center !important;
 
   color: #FFFFFF;
+  overflow: hidden;
+  display: -webkit-box;
+
 }
 
-.container span{
+.masthead-subheading div{
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: -webkit-box;
+}
+
+
+.masthead-subheading span{
+  display: block;
+  margin: auto;
+  align-items: center;
   font-family: ABeeZee;
   font-style: italic;
   font-weight: normal;
@@ -310,7 +328,7 @@ body{
 .ambitious-content{
   max-width: 579px !important;
   height: 198px;
-  margin-top: 29px;
+  margin-top: 30px;
   margin-left: -15px;
   margin-right: -15px;
 
@@ -482,6 +500,7 @@ body{
   font-size: 48px;
   line-height: 57px;
   text-decoration-line: underline;
+  color: #FFFFFF;
 }
 
 #col-team{
@@ -813,8 +832,9 @@ body{
 }
 
 .design-hover {
-  width: 356px;
+  width: 362px;
   height: 72px;
+  margin-left: 6px;
   margin-right: 6px;
 
   font-family: Poppins;
@@ -822,9 +842,11 @@ body{
   font-weight: 600;
   font-size: 48px;
   line-height: 72px;
-
-  display: flex;
   align-items: center;
+  text-align: center;
+
+  /* display: flex;
+  align-items: center; */
 
   color: #FFFFFF;
   overflow: hidden;
@@ -1122,7 +1144,7 @@ body{
 }
 
 .library-content div{
-  width: 293px;
+  width: 297px;
   margin-top: -2px;
   margin-right: 140px !important;
   text-align: left;
