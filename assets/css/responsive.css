@@ -77,9 +77,13 @@
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .navbar{
-      margin-left: 50px !important;
-      margin-right: 50px !important;
+
+  #contact-us{
+    margin-top: 30px;
+  }
+  .navbar{
+      margin-left: 50px;
+      margin-right: 50px;
   }
 
   #about-col{
@@ -87,16 +91,14 @@
   }
 
   .about-main{
-    margin-left: 60%;
-    margin-right: 40%;
+    margin-left: 0;
+    margin-right: 0;
     align-items: center;
   }
 
   .ambitious-title{
-    margin-left: 15%;
-    margin-right: 40%;
-    align-items: center;
-    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .young-married{
@@ -106,54 +108,45 @@
   }
 
   .ambitious-content{
-    margin-left: 15%;
-    margin-right: -150px;
-    text-align: center;
-    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /*  */
+
+  #team{
+    padding-top: 400px;
   }
 
   #about-img{
     margin-top: 30px;
-    margin-left: 15%;
+    margin-left: 12%;
+    margin-right: 12%;
+ 
   }
 
-  #team{
-    flex-direction: column;
-  }
+  
 
   #team-image{
-    margin-left: -170px !important;
+    margin-left: 20%;
+    align-items: center;
   }
 
-.team-main{
-  margin-left: 150px;
-  text-align: center;
-}
+  .img-team1, .img-team2{
+    width: 563px;
+    height: 412px;
+  }
+  .img-team1 img, .img-team2 img{
+    width: 563px;
+    height: 412px;
+    object-fit: cover;
+  }
 
-.great-team{
-  margin-left: -40px;
-  margin-right: 100px;
-  align-items: center;
-  text-align: center;
-}
+  #col-team{
+    margin-top: 100px;
+    margin-left: 20%;
 
-.team-content{
-  margin-left: -100px;
-  margin-right: 50px;
-  align-items: center;
-  text-align: center;
-}
-
-#journal-title{
-  margin-left: 100px;
-  margin-right: 100px;
-  text-align: center;
-}
-
-#row-content-journal{
-  margin-left: 30px;
-}
-
+  }
 
 #our-work-title p{
   margin-left: 41%;
@@ -167,27 +160,20 @@
 
 
   #swiper-slide{
-    margin-left: -260px !important;
+    margin-left: -260px;
   }
 
   #swiper-section5{
-    margin-left: -340px !important;
+    margin-left: 15%;
 
   }
 
   .number{
-    margin-top: -32px !important;
+    margin-top: -32px;
     margin-left: 850px;
   
   }
 
-  #col-team{
-    margin-left: 16%;
-  }
-  #team-image{
-    margin-left: 35px;
-    margin-bottom: 100px;
-  }
 
   #section-journal{
     margin-left: 15%;
@@ -195,6 +181,18 @@
 
   #our-work-title{
     margin-left: -50px;
+  }
+
+  .swiper-wrapper{
+    margin-left: 7% ;
+  }
+
+  .swiper-pagination{
+    margin-left: 0;
+  }
+
+  #services-img-content1{
+    margin-left: 12%;
   }
 
   #swiper-slide{
@@ -205,7 +203,7 @@
       .design-interior {
         text-align: center;
         align-items: center;
-        margin-left: 10px !important;
+        margin-left: 10px;
       }
 
       #logo-footer{
@@ -213,8 +211,8 @@
       }
 
       .slider-number{
-        max-width: 30px !important;
-        margin-left: 900px !important;
+        max-width: 30px;
+        margin-left: 900px;
       }
 
       #footer-content{
@@ -228,66 +226,68 @@
 
 
   .navbar{
-    margin-left: 50px !important;
-    margin-right: 50px !important;
+    margin-left: 50px;
+    margin-right: 50px;
       }
 
       #about-col{
-        margin-left: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
       }
 
       .about-main{
-        margin-left: 60%;
-        margin-right: 40%;
-        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
       }
 
       .ambitious-title{
-        margin-left: 10%;
-        margin-right: 30%;
-        align-items: center;
-        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
       }
 
-
+      #section-about{
+        flex-direction: column;
+      }
 
       .ambitious-content{
-        margin-left: 10%;
-        margin-right: -300px;
-        text-align: center;
-        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+
       }
 
       #about-img{
         margin-top: 30px;
-        margin-left: 15%;
+        margin-left: 20%;
+        margin-right: 20%;
       }
 
       #team{
-        flex-direction: column;
+        padding-top: 400px;
+        margin-left: 20%;
+        margin-right: 20%;
       }
 
       #team-image{
-        margin-left: -170px !important;
+        margin-left: -20px;
       }
 
-      .team-main{
-      margin-left: 150px;
-      text-align: center;
+      .img-team1, .img-team2{
+        width: 563px;
+        height: 412px;
+      }
+      .img-team1 img, .img-team2 img{
+        width: 563px;
+        height: 412px;
+        object-fit: cover;
       }
 
-      .great-team{
-      margin-left: -40px;
-      margin-right: 100px;
-      align-items: center;
-      text-align: center;
+      #col-team{
+        margin-right: 20%;
       }
 
-      .team-content{
-      margin-left: -100px;
-      margin-right: 50px;
-      align-items: center;
-      text-align: center;
+      #team-image{
+        margin-left: 35px;
+        margin-bottom: 100px;
       }
 
       #journal-title{
@@ -313,27 +313,21 @@
 
 
       #swiper-slide{
-        margin-left: -260px !important;
+        margin-left: -260px ;
       }
 
       #swiper-section5{
-        margin-left: -340px !important;
+        margin-left: -340px;
 
       }
 
       .number{
-        margin-top: -32px !important;
+        margin-top: -32px;
         margin-left: 850px;
 
       }
 
-      #col-team{
-        margin-left: 16%;
-      }
-      #team-image{
-        margin-left: 35px;
-        margin-bottom: 100px;
-      }
+      
 
       #section-journal{
         margin-left: 15%;
@@ -351,7 +345,7 @@
     .design-interior {
       text-align: center;
       align-items: center;
-      margin-left: 10px !important;
+      margin-left: 10px;
     }
 
     #logo-footer{
@@ -359,8 +353,8 @@
     }
 
     .slider-number{
-      max-width: 30px !important;
-      margin-left: 900px !important;
+      max-width: 30px;
+      margin-left: 900px ;
     }
 
 

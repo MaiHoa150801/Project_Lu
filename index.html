@@ -32,15 +32,12 @@
 
    </head>
    <body>
-    
-     <header class="masthead">
-        <div class="backgrounp">
-            <!-- Start menu -->
-            <nav class="navbar navbar-expand-lg navbar-dark aline-items-center">
+     <header class="header">
+            <nav class="navbar navbar-expand-lg fixed-top  scrolling-navbar ">
                 <a class="navbar-brand" href="#">FOptimal</a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-light"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto" id="menu">
@@ -57,21 +54,24 @@
                             <a class="nav-link" href="#swiper-section4" id="our-work">OUR WORK</a>
                         </li>
                         <li class="nav-item" id="contact-us">
-                            <button class=" nav-link btn border" type="submit" id="contact">CONTACT US</button>
+                            <button class=" nav-link btn border" type="submit" id="contact"><a href="">CONTACT US</a></button>
                         </li>
                     </ul>
                 </div>
            </nav>
             <!-- End menu -->
-               
-           <div class="header-content">
-            <div class="container">
-                <div class="masthead-subheading">Passionate about Design</div><span>Interior.</span>
-                <div class="young-married">Industrial style interior for a young married couple.</div>
-                <a class="btn text-white text-uppercase" href="#" id="discover-more">DISCOVER MORE</a>
+
+            <div class="view ml-auto mr-auto" id="view">
+                <div class="mask rgba-gradient align-items-center">
+                    <div class="row wow fadeIn">
+                        <div class="container">
+                            <div class="masthead-subheading">Passionate about Design</div><span>Interior.</span>
+                            <div class="young-married">Industrial style interior for a young married couple.</div>
+                            <a class="btn text-white text-uppercase" href="#" id="discover-more">DISCOVER MORE</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-           </div>
-        </div>
      </header>
     
     <main class="main">
@@ -79,7 +79,6 @@
             <div class="row" id="row1-section-about">
                 <div class="col-md-6" id="about-col">
                     <div class="about-main">About<i class="fas fa-horizontal-rule"></i></div>
-                    <!-- <div class="team-main"><i class="fas fa-horizontal-rule"></i>Our Team</div> -->
                     <div class="ambitious-title">Ambitious designs for Interior Project.</div>
                     <div class="ambitious-content">
                         <span class="ambitious-content-first">Furniture Optimal   </span>
@@ -88,8 +87,8 @@
                     </div>
                 </div>
                 <div class="col-md-6" id="about-img">
-                    <div class="img1"><img src="assets/img/main/Rectangle 170.svg" alt=""></div>
-                    <div class="img2"><img src="assets/img/main/Rectangle 170.svg" alt=""></div>
+                    <div class="img1"><img src="assets/img/main/Rectangle 170.svg" alt="" class="ImageOfAbout"></div>
+                    <div class="img2"><img src="assets/img/main/Rectangle 170.svg" alt="" class="ImageOfAbout1"></div>
                 </div>
             </div>
 
@@ -160,8 +159,6 @@
             </div>
         </section>
 
-
-        
 
         <!-- Start section Our_work  -->
 
@@ -309,7 +306,7 @@
                         <span class="marker-content">Boulevard Audent 18 6000 Charleroi Belgique</span>
                     </div>
                     <div class="col-sm-2" id="btn-footer">
-                        <div class="footer-button btn border"><a href="">GET IN TOUCH</a></div>
+                        <button class="footer-button btn border"><a href="" class="getbtn">GET IN TOUCH</a></button>
                     </div>
 
                 </div>

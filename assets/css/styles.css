@@ -13,51 +13,54 @@ body{
     src: url(../font/font/ABeeZee-Regular.ttf);
   }
 
-header.masthead {
-  top: auto;
-  height: 752px;
-  text-align: center;
-  color: #fff;
-  background-image: url("../img/backgrounp/Rectangle\ 173.svg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  border: none !important;
+  .fadeIn .container{
+    margin-top: 199px;
 
-}
+    width: 885px;
+    height: auto;
+    margin-bottom: 199px !important;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
 
-header .backgrounp{
+.header {
   max-width: 100%;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(49, 49, 49, 0.8);
-  background: -moz-linear-gradient(top, rgba(49, 49, 49, 0.4) 10%,#1C1C1C 30%);
-  background: -o-linear-gradient(top, rgba(49, 49, 49, 0.4) 10%, #1C1C1C 30%);
-  background: -ms-linear-gradient(top, rgba(49, 49, 49, 0.4) 10%, #1C1C1C 30%);
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(0.3, rgba(49, 49, 49, 0.4)),color-stop(0.9, #1C1C1C));
-  opacity: 2.5;
-  border: none !important;
-  /* filter: alpha(opacity=80); */
+  height: 752px;
+  background-image:  
+  linear-gradient( to bottom,
+     rgba(49, 49, 49, 0.8),
+     rgba(49, 49, 49, 0.8),
+     rgba(49, 49, 49, 0.8),
+      #1C1C1C
+      ), 
+    url("../img/backgrounp/Rectangle\ 173.svg"); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center center;
+  
+
 }
 
 
-.backgrounp .navbar{
+
+ .navbar{
   display: flex;
   max-width: 1240px;
   height: 49px;
   margin-right: auto;
   margin-left: auto;
-  top: 24px;
+  margin-top: 24px;
   align-items: center;
 
   background: none;
 }
 
 .navbar-brand{
-  width: 128px;
-  height: 49px;
-  margin-top: 4px;
+  width: 143px;
+  height: 45px;
+  padding: 0;
+  margin-top: 1px;
   margin-bottom: 1px;
   margin-left: -16px;
   font-family: 'Poppins', sans-serif;
@@ -65,7 +68,9 @@ header .backgrounp{
   font-weight: bold !important;
   font-size: 30px !important;
   line-height: 45px !important;
+  text-align: left;
 
+  color: #FFFFFF;
 }
 
 
@@ -97,6 +102,7 @@ header .backgrounp{
 }
 
 
+
  #about, #journal, #services, #our-work, #contact{
   margin-left: 40px;
   align-items: center;
@@ -105,24 +111,28 @@ header .backgrounp{
 
 
 #about{
-  width: 65px;
+  width: 60px;
+  padding: 0;
 }
 
 #journal{
-  width: 85px;
-  justify-content: center;
+  width: 80px;
+  padding: 0;
 }
 
 #services{
-  width: 87px;
+  width: 82px;
+  padding: 0;
 }
 
 #our-work{
-  width: 110px;
+  width: 96px;
+  text-align: left !important;
+  padding: 0;
 }
 
 #contact{
-  width: 140px;
+  width: 154px;
   height: 49px;
   margin-top: -11px;
   margin-left: 40px;
@@ -132,6 +142,8 @@ header .backgrounp{
 
 
 #contact-us button{
+  padding: 0;
+
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -140,20 +152,6 @@ header .backgrounp{
 
   color: #FFFFFF;
 }
-
-
-
-/* Content backgrounp */
-.header-content .container{
-  position: none;
-  width: 885px;
-  height: auto;
-  margin-top: 150px !important;
-  margin-bottom: 211px !important;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
 
 
 .masthead-subheading{
@@ -313,14 +311,12 @@ header .backgrounp{
 
 
 #about-img{
-  width: 610px;
-  height: 386px;
   margin-left: 23px;
 }
 
 
 
-#about-img .img1 img{
+.img1 img{
   width: 610px;
   height: 386px;
   margin-top: 0px;
@@ -329,20 +325,30 @@ header .backgrounp{
 
 .img1{
   position:absolute;
+  width: 610px;
   margin-left: -15px;
   z-index:2
+}
+.img2{
+  position:absolute;
+  width: 610px;
+  z-index:1;
+  top: 26px;
 }
 
 .img2 img{
   width: 610px;
   height: 386px;
-  top: 26px;
-  position:absolute;
   margin-left: 13px;
   object-fit: cover;
   opacity: 0.2;
-  z-index:1
-} 
+  
+}
+
+.ImageOfAbout, .ImageOfAbout1{
+  width: 610px;
+}
+
 
 
 
@@ -1244,26 +1250,30 @@ footer{
 
 #btn-footer{
   max-width: 171px !important;
+  height: 55px !important;
   margin-top: 23px;
   margin-left: 134px;
 }
 
 .footer-button a{
+  align-items: center;
 
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  align-items: center;
 
   color: #FFFFFF;
 }
 
+
 .footer-button {
   width: 171px !important;
+  height: 55px !important;
   margin-left: -15px;
   border-radius: 0 !important;
+  align-items: center;
 
 }
 
