@@ -78,6 +78,7 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+
   #contact-us{
     margin-top: 30px;
   }
@@ -149,8 +150,21 @@
   }
 
 #our-work-title p{
-  margin-left: 41%;
+  margin-left: 250px;
+  align-items: center;
   text-align: center;
+}
+#our-work-title span{
+  margin-right: 250px;
+  align-items: center;
+  text-align: center;
+}
+
+.swiper-pagination1{
+  margin-left: 80px;
+}
+.swiper-pagination{
+  margin-left: -300px;
 }
 
 #our-services-title p{
@@ -160,7 +174,7 @@
 
 
   #swiper-slide{
-    margin-left: -260px;
+    padding-left: 0 !important;
   }
 
   #swiper-section5{
@@ -180,11 +194,15 @@
   }
 
   #our-work-title{
-    margin-left: -50px;
+    margin-left:0;
   }
 
-  .swiper-wrapper{
-    margin-left: 7% ;
+  #services-img-content1{
+    margin-left:180px !important;
+  }
+
+  #swiper-section4 .swiper-pagination{
+    margin-left: -300px;
   }
 
   .swiper-pagination{
@@ -206,18 +224,20 @@
         margin-left: 10px;
       }
 
-      #logo-footer{
-        margin-left: 30px;
-      }
 
       .slider-number{
         max-width: 30px;
-        margin-left: 900px;
+        margin-left: 750px;
       }
 
       #footer-content{
         flex-wrap: wrap;
       }
+
+
+    #btn-footer{
+      margin-left: 2px;
+    }
 
 
 }
@@ -346,6 +366,10 @@
       text-align: center;
       align-items: center;
       margin-left: 10px;
+    }
+
+    #swiper-services{
+      margin-left: 100px;
     }
 
     #logo-footer{

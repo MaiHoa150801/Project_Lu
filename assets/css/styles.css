@@ -176,7 +176,7 @@ body{
 
 .masthead-subheading{
   max-width: 885px;
-  height: 160px;
+  height: auto;
   flex-wrap: wrap;
   text-align: center;
   align-items: center;
@@ -259,6 +259,7 @@ body{
 .main{
   background: #1C1C1C;
   border: none;
+  overflow: hidden;
 }
 
  
@@ -765,9 +766,13 @@ body{
 
 
 #swiper-section4{
-  max-width: 1240px !important;
+  max-width: 1240px;
   height: auto;
+  margin-left: 140px !important;
+  margin-right: 140px;
+  align-items: center;
   margin-top: 121px;
+  overflow: visible;
 }
 
 
@@ -1012,6 +1017,7 @@ body{
   max-width: 1240px;
   height: auto;
   margin-top: 116px;
+  overflow: visible;
 }
 
 
@@ -1117,6 +1123,9 @@ body{
   margin-left: -440px;
 }
 
+.library-content{
+  margin-left: 5px;
+}
 
 .library-content p i{
   width:50px; 
