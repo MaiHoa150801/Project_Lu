@@ -39,7 +39,12 @@
 </style>
    </head>
    <body>
-     <header class="header">
+     <header>
+            <div class="background">
+                <div class="header"> </div>
+                <img src="assets/img/backgrounp/Rectangle 173.svg" alt="">
+            </div>
+            
             <div class="nav">
                 <nav class="navbar navbar-expand-lg fixed-top  scrolling-navbar">
                     <a class="navbar-brand" style="color: #FFFFFF;" href="#">FOptimal</a>
@@ -77,6 +82,7 @@
                     </div>
                </nav>
             </div>
+
             <!-- End menu -->
 
             <div class="view ml-auto mr-auto" id="view">
@@ -90,6 +96,7 @@
                     </div>
                 </div>
             </div>
+
      </header>
     
     <main class="main">
@@ -184,7 +191,7 @@
             <div class="row" id="our-work-title"> 
                 <p class="text-center">Our</p><span>Work</span>
             </div>
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper" id="our-work-container">
               <div class="swiper-slide active" id="swiper-slide">
                 <a href="#" class="image-slide1">
                     <img src="assets/img/section4/Rectangle 178.svg" alt="Image" class="img-sectionOfWork">
@@ -216,9 +223,9 @@
                 </a>
               </div>
               <div class="swiper-slide" id="swiper-slide1">
-                <a href="#" class="image-slide1">
+                <a href="#" class="image-slide1" id="image-slide1">
                     <img src="assets/img/section4/Rectangle 178.svg" alt="Image" class="img-sectionOfWork">
-                    <div class="design-interior">
+                    <div class="design-interior" id="hover-interior3">
                         <div class="design-hover">
                             Design Interior
                         </div>
@@ -226,9 +233,19 @@
                 </a>
               </div>
               <div class="swiper-slide" id="swiper-slide1">
-                <a href="#" class="image-slide1">
+                <a href="#" class="image-slide1" id="image-slide-our-work">
                     <img src="assets/img/section4/Rectangle 179.svg" alt="Image" class="img-sectionOfWork">
-                    <div class="design-interior">
+                    <div class="design-interior" id="hover-interior4">
+                        <div class="design-hover">
+                            Design Interior
+                        </div>
+                    </div>
+                </a>
+              </div>
+              <div class="swiper-slide" >
+                <a href="#" class="image-slide1" id="image-slide-our-work1">
+                    <img src="assets/img/section4/Rectangle 179.svg" alt="Image" class="img-sectionOfWork">
+                    <div class="design-interior" id="hover-interior">
                         <div class="design-hover">
                             Design Interior
                         </div>
@@ -279,6 +296,13 @@
                 </div>
                 <div class="swiper-slide" id="services-img-content">
                     <img src="assets/img/section5/Rectangle 171.svg" class="image4">
+                    <div class="library-content">
+                        <p><i class="fas fa-horizontal-rule"></i>Design Interior</p>
+                        <div>Library Room Design</div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="services-img-content">
+                    <img src="assets/img/section5/Rectangle 184.svg" class="image5">
                     <div class="library-content">
                         <p><i class="fas fa-horizontal-rule"></i>Design Interior</p>
                         <div>Library Room Design</div>
@@ -351,7 +375,11 @@
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 2.2,
         spaceBetween: 80,
-        centeredSlides: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        // slidesToShow: 1,
+        
+        // centeredSlides: true,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -360,8 +388,6 @@
 
 
       });
-
-    
 
         var showCount=$('.slider-number');
         var imagecount = 1;
@@ -374,21 +400,19 @@
             $('.slider-number').html(index + '/' + totalimage);
         });
 
-    
     </script>
 
-        <!-- Initialize Swiper -->
         <script>
             var swiper = new Swiper(".Swiper", {
                 slidesPerView: 2.8,
                 spaceBetween: 40,
-                centeredSlides: true,
+                // autoplay: true,
+                // autoplaySpeed: 1000,
+                // centeredSlides: true,
                 pagination: {
                 el: ".swiper-pagination1",
                 clickable: true,
-
                 },
-
             });
 
             var show=$('.number');
@@ -401,20 +425,17 @@
                 var index = $(this).index()+1;
                 $('.number').html(index + '/' + total);
             });
-
-
         </script>
 
-
-    <script>
-        function openNav() {
-        document.getElementById("mySidenav").style.width = "200px";
-        }
-        
-        function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
+        <script>
+            function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+            }
+            
+            function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
 
    </body>
  
