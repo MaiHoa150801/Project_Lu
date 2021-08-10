@@ -1,12 +1,6 @@
 
 @media (max-width: 575.98px) {
 
-  header{
-    width: 100%;
-    height: 752px !important;
-  }
-
-  
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 
@@ -15,35 +9,18 @@
     background: #1C1C1C;
   }
 
-  .navbar-brand{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: bold !important;
-    font-size: 25px !important;
-    line-height: 35px !important;
-    text-align: left;
   
-    color: #FFFFFF;
-  }
-
-  #navbarSupportedContent ul{
-    margin-left: 300px;
-  }
-
 
   .navbar{
       margin-left: 50px;
-      margin-right: 50px;
   }
 
   #about-col{
-    margin-left: 0;
+    margin-left: 50px !important;
   }
 
-  .about-main{
-    margin-left: 0;
-    margin-right: 0;
-    align-items: center;
+  #about-col .about-main{
+    margin-left: 50px!important;
     font-size: 20px;
     line-height: 25px;
   }
@@ -51,8 +28,14 @@
   .ambitious-title{
     margin-left: 0;
     margin-right: 0;
-    font-size: 38px;
+    font-size: 30px;
     line-height: 47px;
+  }
+
+  .ambitious-title{
+    width: 350px;
+    height: auto !important;
+    flex-wrap: wrap !important;
   }
 
   .young-married{
@@ -80,8 +63,9 @@
   
   
   .img1 img{
-    width: 400px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
+    margin-left: 15px;
     margin-top: 0px;
     object-fit: cover;
   }
@@ -96,13 +80,13 @@
     position:absolute;
     width: 410px;
     z-index:1;
-    top: 26px;
+    top: 16px;
   }
   
   .img2 img{
-    width: 400px;
-    height: 250px;
-    margin-left: 13px;
+    width: 300px;
+    height: 200px;
+    margin-left: 15px;
     object-fit: cover;
     opacity: 0.2;
     
@@ -116,8 +100,11 @@
     display: block;
   }
 
+  .great-team{
+    max-width: 350px;
+    margin-left: 38px;
+  }
   .great-team .work{
-    margin-left: 50px;
     text-align: right;
   
     font-family: ABeeZee;
@@ -138,6 +125,13 @@
   }
 
   .team-content{
+    max-width: 350px;
+    height: auto !important;
+    margin-left: 30px;
+    margin-right: -43px;
+    align-items: center;
+    justify-content: center;
+
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -146,7 +140,7 @@
   }
 
   .team-content .team-content-first{
-    margin-left: -10px;
+    margin-left: 0px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -256,65 +250,8 @@
   /*  */
 
 
-  #our-work-title p{
-    margin-left: 150px !important;
-    font-family: ABeeZee;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 38px;
-    line-height: 47px;
-
-  }
-
   #our-work-container{
-    margin-left: 2px;
-  }
-
-  #our-services-title p{
-    margin-left: -100px !important;
-    font-family: ABeeZee;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 38px;
-    line-height: 47px;
-  }
-  
-  #our-work-title span, #our-services-title span{
-    margin-left: -20px;
-    text-decoration: underline;
-  
-    font-family: ABeeZee;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 38px;
-    line-height: 47px;
-  }
-
-
-  #footer-content{display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-  }
-
-  #services-work{
-    margin-left: 60px;
-  }
-
-  #address-footer{
-    margin-top: 50px;
-    margin-left: 0px;
-
-  }
-
-  #btn-footer{
-    margin-top: 40px;
-    margin-left: 50px;
-  }
-
-  #about-journal{
-    margin-left: 70px;
+    margin-left: 30px !important;
   }
 
 
@@ -326,33 +263,44 @@
   }
 
   #team-image{
-    margin-left:40px;
-    margin-right: 15px;
+    margin-left:25px;
     align-items: center;
   }
 
   .img-team1, .img-team2{
-    width: 350px;
+    width: 300px;
     height: 200px;
   }
   .img-team1 img, .img-team2 img{
-    width: 350px;
+    width: 300px;
     height: 200px;
     object-fit: cover;
+  }
+
+  .img-team1 img{
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+
+  .img-team2 img{
+    margin-top: -30px;
+    margin-left: 10px;
+    opacity: 1;
   }
 
   /*  */
 
   #col-team{
+    max-width: 350px;
     margin-top: 100px;
-    margin-left: -50px;
+    margin-left: 10px;
 
   }
 
   .team-main{
     width: 176px;
     margin-top: -68px !important;
-    margin-left: 330px ;
+    margin-left: 212px ;
     text-align: right;
   
     font-family: Poppins;
@@ -398,7 +346,7 @@
   #swiper-services{
     margin-left: 300px;
   }
-
+/* 
   #services-img-content1,#services-img-content{
     max-width: 350px !important;
     height: 200px !important;
@@ -409,7 +357,7 @@
     max-width: 350px !important;
     height: 200px !important;
     object-fit: cover;
-  }
+  } */
   
   .library-content{
     margin-left: 200px;
@@ -449,140 +397,8 @@
 
   
   }
-
-  .swiper-pagination1{
-    margin-top: 30px !important;
-    margin-left: -270px !important;
-  }
-
-  .swiper-pagination1 .swiper-pagination-bullet{
-    margin-top: 30px !important;
-  }
-
-  .number{
-    margin-top: -5px !important;
-    margin-left: -300px !important;
-    font-size: 20px;
-    line-height: 26px;
-  }
-  
-
-#our-work-title p{
-  align-items: center;
-  text-align: center;
-}
-#our-work-title span{
-  margin-right: 20px;
-  align-items: center;
-  text-align: center;
-}
-
-.swiper-pagination1{
-  margin-left: 80px;
-}
-.swiper-pagination{
-  margin-left: 200px !important;
-}
-
-#our-services-title p{
-  margin-left: 35%;
-  text-align: center;
-}
-
-
-  #swiper-slide{
-    margin-left: 0px !important;
-  }
-
-  #swiper-section5{
-    margin-left: 15%;
-
-  }
-
-  .number{
-    margin-top: -32px;
-    margin-left: 850px;
-  
-  }
-
-
-  #section-journal{
-    margin-left: 15%;
-  }
-
-  #our-work-title{
-    margin-left:0;
-  }
-
-  #services-img-content1{
-    margin-left:180px !important;
-  }
-
-  #swiper-section4 .swiper-pagination{
-    margin-left: 40px !important;
-  }
-
-
-  #services-img-content1{
-    margin-left: 12%;
-  }
-
-  #swiper-slide{
-        margin-left: 8% ;
-      }
-
-
-      .design-interior {
-        text-align: center;
-        align-items: center;
-        margin-left: 10px;
-      }
-
-
-      .slider-number{
-        max-width: 30px;
-        margin-left: 380px !important;
-      }
-
-      #footer-content{
-        flex-wrap: wrap;
-      }
-
-    #btn-footer{
-      margin-left: 2px;
-    }
-
-    .brand{
-      font-size: 30px !important;
-      line-height: 37px !important;
-    }
-
-    .about-footer, .jurnal-footer, .services-footer, .work-footer{
-      font-size: 16px !important;
-      line-height: 20px !important;
-    }
-
-    #btn-footer a{
-      align-items: center;
-    
-      font-family: Poppins;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 20px;
-    
-      color: #FFFFFF;
-    }
-
-    .footer-button {
-      margin-left: 50px;
-      width: 141px !important;
-      height: 40px !important;
-    
-    }
 }
 /* ======================================================= */
-
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   header{
@@ -1159,10 +975,9 @@
 
 
 }
-/* ======================================================== */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+  
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 
@@ -1171,6 +986,16 @@
     background: #1C1C1C;
   }
 
+  .navbar-toggler{
+    margin-left: -300px !important;
+  }
+
+  .navbar-toggler-icon {
+    /* display: inline-block; */
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: -200px !important;
+}
   
 
   #navbarSupportedContent ul{
@@ -1216,6 +1041,7 @@
   }
 
   #about-img{
+    margin-top: 100px !important;
     margin-top: 30px;
     margin-left: 12%;
     margin-right: 12%;
@@ -1243,13 +1069,13 @@
 
   }
 
-#our-work-title p{
-  margin-left: 250px;
+#our-work-title{
+  margin-left: 400px;
   align-items: center;
   text-align: center;
 }
 #our-work-title span{
-  margin-right: 250px;
+  margin-right: -10px;
   align-items: center;
   text-align: center;
 }
@@ -1272,7 +1098,7 @@
   }
 
   #swiper-section5{
-    margin-left: 15%;
+    margin-left: 30%;
 
   }
 
@@ -1287,13 +1113,8 @@
     margin-left: 15%;
   }
 
-  #our-work-title{
-    margin-left:0;
-  }
 
-  #services-img-content1{
-    margin-left:180px !important;
-  }
+  
 
   #swiper-section4 .swiper-pagination{
     margin-left: -300px;
@@ -1304,12 +1125,12 @@
   }
 
   #services-img-content1{
-    margin-left: 12%;
+    margin-left: 525px !important;
   }
 
-  #swiper-slide{
-        margin-left: 8% ;
-      }
+  #swiper-slide {
+    margin-left: -5px !important;
+  }
 
 
       .design-interior {
@@ -1333,14 +1154,15 @@
       margin-left: 2px;
     }
 
+    #row1-section-about{
+      display: block !important;
+    }
+
 }
 
-/* ============================================== */
-
-
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
-
+  
+  
   .navbar{
     margin-left: 50px;
     margin-right: 50px;
@@ -1478,12 +1300,7 @@
     #about-journal, #services-work, #address-footer, #btn-footer{
       margin-left: 100px !important;
     }
-
-
       
 }
-
-
-
 
 
