@@ -255,8 +255,9 @@
 
   /*  */
 
+
   #our-work-title p{
-    margin-left: 140px !important;
+    margin-left: 150px !important;
     font-family: ABeeZee;
     font-style: normal;
     font-weight: normal;
@@ -467,12 +468,11 @@
   
 
 #our-work-title p{
-  margin-left: 10px;
   align-items: center;
   text-align: center;
 }
 #our-work-title span{
-  margin-right: 50px;
+  margin-right: 20px;
   align-items: center;
   text-align: center;
 }
