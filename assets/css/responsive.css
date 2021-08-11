@@ -214,6 +214,15 @@
 
   /*  */
 
+  .image-slide1 img {
+    opacity: 0.2;
+  } 
+  
+ .design-interior {
+    opacity: 1;
+  }
+
+
   #our-services-title{
     margin-left: -250px;
   }
@@ -422,42 +431,6 @@
     margin-left: 75px;
   }
 
-
-  
-  /* .library-content p i{
-    width:50px; 
-    height: 2px;
-    margin-bottom: 8px;
-    margin-right: 6px;
-    
-    border: none;
-    background-color: #ffffff;
-  } */
-  /* .library-content p{
-    margin-top: 20px;
-    text-align: left;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-  
-    color: #FFFFFF;
-    overflow: hidden;
-    display: -webkit-box;
-  
-    opacity: 0.6;
-  } */
-  
-  /* .library-content div{
-    width: 297px;
-    margin-top: -2px;
-    margin-right: 140px !important;
-    font-size: 20px;
-    line-height: 22px;
-
-  
-  } */
 }
 /* ======================================================= */
 
@@ -672,6 +645,15 @@
   }
 
   /*  */
+
+  .image-slide1 img {
+    opacity: 0.2;
+  } 
+  
+ .design-interior {
+    opacity: 1;
+  }
+
 
   .swiper-wrapper .image-slide1 img, .swiper-wrapper #image-slide1-first img{
     max-width: 300px !important;
@@ -1269,7 +1251,15 @@
       justify-content: center;
     }
 
+    .image-slide1 img {
+      opacity: 0.2;
+    } 
+    
+   .design-interior {
+      opacity: 1;
+    }
 
+  
 
     .footer-button{
       max-width: none;
