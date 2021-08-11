@@ -991,10 +991,7 @@
   }
 
   .navbar-toggler-icon {
-    /* display: inline-block; */
-    width: 1.5em;
-    height: 1.5em;
-    margin-left: -200px !important;
+    margin-right: -30px !important;
 }
   
 
@@ -1003,18 +1000,7 @@
   }
 
   .navbar{
-      margin-left: 50px;
-      margin-right: 50px;
-  }
-
-  #about-col{
-    margin-left: 10%;
-  }
-
-  .about-main{
-    margin-left: 0;
-    margin-right: 0;
-    align-items: center;
+      padding: 0 60px !important;
   }
 
   .ambitious-title{
@@ -1044,40 +1030,98 @@
   }
 
   /*  */
-
-  #team{
-    padding-top: 400px;
-    display: block;
+  /* ====== */
+  #about-col{
+    padding: 0;
   }
 
-  #about-img{
-    margin-top: 100px !important;
-    margin-top: 30px;
-    margin-left: 12%;
-    margin-right: 12%;
- 
-  }
-
-  #team-image{
-    margin-left: 13%;
+  .about-main{
+    margin-left: 0;
+    margin-right: 0;
     align-items: center;
   }
 
+  #about-img{
+    padding: 0 !important;
+    margin-top: 50px !important;
+    margin-left: -50px;
+ 
+  }
+
+  .img1 img, .img2 img{
+    width: 550px;
+    height: 350px;
+  }
+
+  /* ======== */
+
+  #team{
+    display: block;
+    padding-top: 350px;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+
+  #team-image{
+    max-width: none;
+    padding: 0;
+    align-items: flex-start;
+    justify-items: left;
+  }
+
   .img-team1, .img-team2{
-    width: 563px;
-    height: 412px;
+    width: 550px;
+    height: 350px;
   }
   .img-team1 img, .img-team2 img{
-    width: 563px;
-    height: 412px;
+    width: 550px;
+    height: 350px;
     object-fit: cover;
   }
 
   #col-team{
+    padding: 0;
     margin-top: 100px;
-    margin-left: 15%;
 
   }
+
+  .team-main, .great-team, .team-content{
+    padding: 0 !important;
+  }
+/* ============== */
+
+#section-journal .container{
+  max-width: none !important;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+#journal-title{
+  margin-left: 200px !important;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#col1-journal, #col2-journal, #col3-journal{
+  margin-left: 200px;
+}
+
+#row-content-journal{
+  display: block;
+  max-width: none;
+  padding: 0;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 #our-work-title{
   margin-left: 400px;
@@ -1116,11 +1160,6 @@
     margin-top: -32px;
     margin-left: 850px;
   
-  }
-
-
-  #section-journal{
-    margin-left: 15%;
   }
 
 
@@ -1164,8 +1203,22 @@
       margin-left: 2px;
     }
 
+    #section-about{
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+    }
+
     #row1-section-about{
       display: block !important;
+      padding: 0;
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+    }
+
+    footer #footer-container{
+      padding: 0 60 !important;
     }
 
 }
@@ -1174,9 +1227,9 @@
   
   
   .navbar{
-    margin-left: 50px;
-    margin-right: 50px;
-      }
+    padding: 0 40px !important;
+
+  }
 
       #about-col{
         margin-left: 15%;
@@ -1194,6 +1247,7 @@
       }
 
       #section-about{
+        padding: 0;
         flex-direction: column;
       }
 
@@ -1204,7 +1258,7 @@
       }
 
       #about-img{
-        margin-top: 30px;
+        margin-top: 50px !important;
         margin-left: 20%;
         margin-right: 20%;
       }
@@ -1239,7 +1293,7 @@
       }
 
       #journal-title{
-      margin-left: 100px;
+      margin-left: 28px;
       margin-right: 100px;
       text-align: center;
       }
@@ -1254,14 +1308,14 @@
       text-align: center;
       }
 
-      #our-services-title p{
-      margin-left: 35%;
+      #our-services-title{
+      margin-left: 264px !important;
       text-align: center;
       }
 
 
       #swiper-slide{
-        margin-left: -260px ;
+        margin-left: 12px !important;
       }
 
       #swiper-section5{
@@ -1271,16 +1325,21 @@
 
       .number{
         margin-top: -32px;
-        margin-left: 850px;
+        margin-left: 814px;
 
       }
 
       #section-journal{
-        margin-left: 15%;
+        padding: 0;
       }
 
       #our-work-title{
         margin-left: -50px;
+      }
+
+      #our-work-title {
+        margin-left: 395px;
+        margin-right: 395px;
       }
 
       #swiper-slide{
@@ -1294,21 +1353,40 @@
       margin-left: 10px;
     }
 
+
     #swiper-services{
       margin-left: 100px;
     }
 
-    #logo-footer{
-      margin-left: 30px;
+    #swiper-section4 .swiper-pagination {
+      margin-left: 26px !important;
     }
+
+
+    .swiper-pagination1{
+      margin-left: -73px !important;
+    }
+  
 
     .slider-number{
       max-width: 30px;
-      margin-left: 900px ;
+      margin-left: 932px ;
     }
 
-    #about-journal, #services-work, #address-footer, #btn-footer{
-      margin-left: 100px !important;
+    #about-journal, #services-work, #address-footer{
+      margin-left: 142px !important;
+    }
+
+    #btn-footer{
+      margin-left: 0px !important;
+    }
+
+    #footer-container{
+      padding: 70px 40px !important;
+    }
+
+    #footer-content{
+      padding: 0 !important;
     }
       
 }
