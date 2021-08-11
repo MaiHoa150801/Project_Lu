@@ -242,6 +242,10 @@
     margin-left: -350px;
   }
 
+  .image-slide2{
+    pointer-events:none;
+  }
+
   .swiper-wrapper #image-slide1-first .design-hover {
     margin-left: -320px;
   }
@@ -1173,7 +1177,13 @@
   justify-content: center;
 }
 
+.image-slide2 img {
+  color: #FFFFFF;
+}
 
+.image-slide2 .design-interior {
+  color: #FFFFFF;
+}
 
 #our-work-title{
   margin-left: 400px;
@@ -1252,7 +1262,18 @@
 
 
     #btn-footer{
+      margin-top: 50px;
       margin-left: 2px;
+      max-width: 991px !important;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+
+    .footer-button{
+      max-width: none;
+      width: 991px !important;
     }
 
     #section-about{
