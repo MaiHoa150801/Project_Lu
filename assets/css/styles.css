@@ -201,8 +201,6 @@ header{
 
  #about, #journal, #services, #our-work, #contact{
   margin-left: 40px;
-  /* align-items: center;
-  text-align: center; */
 }
 
 
@@ -381,22 +379,10 @@ header{
   margin-right: -15px;
 }
 
-/* #section-about .row{
-  padding: 0 !important;
-  max-width: 1240px !important;
-  width: 100%;
-  height: auto;
-  margin: auto;
-  align-items: center;
-  flex-wrap: wrap;
-} */
-
-
-
-
 #about-col{
   max-width: 579px;
   height: auto;
+  padding: 0;
   /* margin-left: -20px; */
 }
 
@@ -407,7 +393,8 @@ header{
   height: 36px;
   align-items: center;
   margin-top: 27px;
-  margin-left: -15px;
+  padding: 0;
+  /* margin-left: -15px; */
 
   font-family: Poppins;
   font-style: normal;
@@ -427,7 +414,7 @@ header{
   width: 572px;
   height: auto !important;
   margin-top: 13px;
-  margin-left: -15px;
+  /* margin-left: -15px; */
   flex-wrap: wrap;
   
   font-family: ABeeZee;
@@ -450,8 +437,8 @@ header{
   max-width: 579px !important;
   height: auto;
   margin-top: 30px;
-  margin-left: -15px;
-  margin-right: -15px;
+  /* margin-left: -15px;
+  margin-right: -15px; */
 
   flex-wrap: wrap;
 
@@ -736,9 +723,8 @@ header{
 
 #section-journal .container #row-content-journal{
   max-width: 1240px !important;
-  width: 100% !important;
   padding: 0 !important;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 #col2-journal{
