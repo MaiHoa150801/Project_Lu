@@ -411,7 +411,7 @@ header{
 .ambitious-title{
   flex-wrap: wrap;
   align-items: center;
-  width: 572px;
+  max-width: 572px;
   height: auto !important;
   margin-top: 13px;
   /* margin-left: -15px; */
@@ -762,7 +762,7 @@ header{
 
 .journal-content, .family-content, .consistent-content{
     max-width: 347px;
-    height: 99px;
+    height: auto;
     /* margin-right: -15px; */
 }
 
@@ -1199,6 +1199,7 @@ header{
   font-size: 48px;
   line-height: 57px;
   align-items: center;
+  justify-content: center;
 
   color: #FFFFFF;
 }
@@ -1554,10 +1555,15 @@ footer{
 
 }
 
-.address-link i{
+.address-link .icon-span{
+  padding: 0 !important;
+  margin-top: -3px;
+}
+
+.address-link span img{
   width: 18px !important;
   height: 23px !important;
-  font-size: 28px;
+  /* font-size: 28px; */
 }
 
 

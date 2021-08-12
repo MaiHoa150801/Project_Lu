@@ -116,13 +116,14 @@
   /*  */
 
   #team{
-    padding-top: 250px;
+    padding-top: 150px;
     display: block;
   }
 
   .great-team{
     max-width: 350px;
-    margin-left: 38px;
+    padding-right: 10px;
+    /* margin-left: 30px; */
   }
   .great-team .work{
     text-align: right;
@@ -146,9 +147,8 @@
 
   .team-content{
     max-width: 350px;
+    padding-right: 10px;
     height: auto !important;
-    margin-left: 30px;
-    margin-right: -43px;
     align-items: center;
     justify-content: center;
 
@@ -162,7 +162,7 @@
   .team-content .team-content-first{
     height: auto !important;
     padding: 0;
-    margin-left: -50px;
+    margin-left: -30px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -224,7 +224,10 @@
 
 
   #our-services-title{
-    margin-left: -250px;
+    margin-left: -290px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
  
   #swiper-section4, #swiper-services{
@@ -238,6 +241,7 @@
   }
 
   #swiper-section5{
+    padding: 0 25px;
     margin-left: -885px !important;
   }
 
@@ -298,6 +302,7 @@
 
 
   #our-work-container{
+    padding: 0 20px !important;
     margin-left: -100px !important;
   }
 
@@ -310,7 +315,7 @@
   }
 
   #team-image{
-    margin-left:25px;
+    padding-left: 20px;
     align-items: center;
   }
 
@@ -339,15 +344,16 @@
 
   #col-team{
     padding: 0 15px;
+    padding-right: 70px;
     max-width: 350px;
-    margin-top: 100px;
+    margin-top: 70px;
 
   }
 
   .team-main{
     width: 176px;
     margin-top: -68px !important;
-    margin-left: 212px ;
+    margin-left: 140px ;
     text-align: right;
   
     font-family: Poppins;
@@ -405,14 +411,15 @@
   }
 
   .slider-number{
-    margin-left: 340px;
+    margin-left: 240px;
   }
 
 
   .number{
-    margin-left: 20px;
+    margin-left: -40px;
   }
 
+  
   .swiper-pagination1{
     margin-left: -320px;
   }
@@ -422,6 +429,7 @@
   }
 
   #services-work, #btn-footer{
+    max-width: none !important;
     margin-top: 30px;
     margin-left: 0;
   }
@@ -430,6 +438,28 @@
     margin-top: 30px;
     margin-left: 75px;
   }
+
+  #address-footer{
+    margin-left: 0px;
+    padding-left: 0 !important;
+  }
+
+  #about-journal {
+    padding: 0;
+    max-width: none !important; 
+    margin-left: 0px;
+    margin-top: 30px !important;
+}
+
+  .footer-button{
+    max-width: none;
+    width: 991px !important;
+  }
+
+  #footer-content{
+    display: block;
+  }
+
 
 }
 /* ======================================================= */
@@ -462,12 +492,13 @@
 
   }
 
-  #about-col{
-    margin-left: 50px;
-  }
+  /* #about-col{
+    margin-left: 20px;
+  } */
 
   #row1-section-about{
-    display: block;
+    display: block !important;
+    padding: 0 20px;
   }
 
   .about-main{
@@ -502,7 +533,7 @@
 
   #about-img{
     margin-top: 80px !important;
-    margin-left: 80px;
+    margin-left: -60px !important;
   }
   
   
@@ -546,7 +577,7 @@
   }
 
   .team-main{
-    margin-left: 428px !important;
+    margin-left:380px !important;
   }
 
   .great-team .work{
@@ -579,23 +610,23 @@
 
   #about-img{
     margin-top: 30px;
-    margin-left: 0;
-    margin-right: 0;
+    /* margin-left: 0;
+    margin-right: 0; */
  
   }
 
   #team-image{
-    margin-left:80px;
+    margin-left:60px;
     margin-right: 10px;
     align-items: center;
   }
 
   .img-team1, .img-team2{
-    width: 400px;
+    width: 430px;
     height: 250px;
   }
   .img-team1 img, .img-team2 img{
-    width: 400px;
+    width: 430px;
     height: 250px;
     object-fit: cover;
   }
@@ -726,8 +757,10 @@
   }
 
   #our-work-container{
+    padding: 0 30px !important;
     margin-left: -200px;
   }
+
 
   #our-services-title{
    
@@ -758,12 +791,12 @@
   }
 
   #services-work{
-    margin-left: 140px;
+    margin-left: 90px;
   }
 
   #address-footer{
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 150px;
 
   }
 
@@ -779,7 +812,7 @@
   }
 
   #about-journal{
-    margin-left: 130px;
+    margin-left: 100px;
   }
 
 
@@ -787,6 +820,8 @@
   /*  */
 
   #col-team{
+    padding: 0 30px;
+    max-width: none !important;
     margin-top: 100px;
     margin-left: -50px;
 
@@ -912,13 +947,14 @@
   }
 
   #swiper-section5{
+    padding: 0 30px;
     margin-left: 300px;
-
   }
+
 
   .number{
     margin-top: -32px;
-    margin-left: 240px;
+    margin-left: 180px;
   
   }
 
@@ -959,7 +995,7 @@
 
       .slider-number{
         max-width: 30px;
-        margin-left: 550px !important;
+        margin-left: 490px !important;
       }
 
       footer{
@@ -1036,11 +1072,11 @@
   .navbar{
       padding: 0 60px !important;
   }
-
+/* 
   .ambitious-title{
     margin-left: 0;
     margin-right: 0;
-  }
+  } */
 
   .masthead-subheading{
     font-size: 60px;
@@ -1066,6 +1102,7 @@
   /*  */
   /* ====== */
   #about-col{
+    max-width: none !important;
     padding: 0;
   }
 
@@ -1075,20 +1112,25 @@
     align-items: center;
   }
 
-  #about-img{
+
+  #about-img {
     padding: 0 !important;
-    margin-top: 50px !important;
-    margin-left: -50px;
- 
-  }
+    margin-top: 100px !important;
+    margin-left: 20px !important;
+}
+
 
   .img1 img, .img2 img{
-    width: 550px;
+    width: 560px;
     height: 350px;
   }
 
   #swiper-section4, #swiper-services{
     padding: 0 30px;
+  }
+
+  #our-work-container{
+    padding: 0 75px !important;
   }
 
   /* ======== */
@@ -1168,7 +1210,7 @@
 }
 
 #our-work-title{
-  margin-left: 400px;
+  margin-left: 240px;
   align-items: center;
   text-align: center;
 }
@@ -1196,13 +1238,14 @@
   }
 
   #swiper-section5{
+    padding: 0 90px;
     margin-left: 30%;
 
   }
 
   .number{
     margin-top: -32px;
-    margin-left: 850px;
+    margin-left: 635px;
   
   }
 
@@ -1235,7 +1278,7 @@
 
       .slider-number{
         max-width: 30px;
-        margin-left: 850px;
+        margin-left: 650px;
       }
 
       #footer-content{
@@ -1272,16 +1315,42 @@
       justify-content: center;
     }
 
+    #section-about #row1-section-about {
+      display: block !important;
+      flex-wrap: wrap !important;
+      max-width: none;
+
+  }
+
     #row1-section-about{
       display: block !important;
-      padding: 0;
-      margin: auto;
-      align-items: center;
-      justify-content: center;
+      padding: 0 50px!important;
+      max-width: none !important;
+      /* padding-left: 40px !; */
+      /* margin: auto; */
+      /* margin-left: -140px !important; */
+      /* align-items: center;
+      justify-content: center; */
     }
 
     footer{
       padding: 0 20px !important;
+    }
+
+    .address-link{
+      margin-top: 30px;
+      margin-left: -164px;
+    }
+
+    .address-link .marker-content{
+      margin-left: 30px;
+    }
+
+    .address-link span img{
+      width: 18px !important;
+      height: 23px !important;
+      /* font-size: 28px; */
+      margin-left: 30px;
     }
 
 }
@@ -1308,8 +1377,13 @@
       }
 
       #section-about{
-        padding: 0;
+        padding: 0 150px;
         flex-direction: column;
+      }
+
+      #section-about #row1-section-about{
+        padding: 0;
+        display: block !important;
       }
 
       .ambitious-content{
@@ -1320,12 +1394,13 @@
 
       #about-img{
         margin-top: 50px !important;
-        padding: 0 40px;
+        padding: 0 45px;
+        margin-left: 20px !important;
       }
 
       #team{
         padding-top: 400px;
-        padding-left: 400px;
+        margin-left: 70px;
       }
 
       #team-image{
@@ -1361,10 +1436,10 @@
       }
 
 
-      #our-work-title p{
-      margin-left: 41%;
+      /* #our-work-title {
+      margin-left: 395px;
       text-align: center;
-      }
+      } */
 
       #our-services-title{
       margin-left: 264px !important;
@@ -1383,12 +1458,12 @@
 
       .number{
         margin-top: -32px;
-        margin-left: 814px;
+        margin-left: 800px;
 
       }
 
       #section-journal{
-        padding: 0;
+        padding: 0 150px;
       }
 
       #our-work-title{
@@ -1397,7 +1472,7 @@
 
       #our-work-title {
         margin-left: 395px;
-        margin-right: 395px;
+        /* margin-right: 395px; */
       }
 
       #swiper-slide{
@@ -1428,14 +1503,15 @@
 
     .slider-number{
       max-width: 30px;
-      margin-left: 932px ;
+      margin-left: 900px ;
     }
 
     #about-journal, #services-work, #address-footer{
-      margin-left: 142px !important;
+      margin-left: 130px !important;
     }
 
     #btn-footer{
+      max-width: none;
       margin-left: 0px !important;
     }
 
@@ -1446,7 +1522,12 @@
     #footer-content{
       padding: 0 !important;
     }
+
+    .footer-button{
+      max-width: none !important;
+      padding: 0 15px !important;
+    }
+   
       
 }
-
 
