@@ -123,7 +123,6 @@
   .great-team{
     max-width: 350px;
     padding-right: 10px;
-    /* margin-left: 30px; */
   }
   .great-team .work{
     text-align: right;
@@ -492,9 +491,6 @@
 
   }
 
-  /* #about-col{
-    margin-left: 20px;
-  } */
 
   #row1-section-about{
     display: block !important;
@@ -522,7 +518,6 @@
   }
 
   .ambitious-content{
-    /* margin-left: -15px; */
     margin-right: 0;
     font-size: 20px;
     line-height: 25px;
@@ -610,8 +605,6 @@
 
   #about-img{
     margin-top: 30px;
-    /* margin-left: 0;
-    margin-right: 0; */
  
   }
 
@@ -1072,11 +1065,6 @@
   .navbar{
       padding: 0 60px !important;
   }
-/* 
-  .ambitious-title{
-    margin-left: 0;
-    margin-right: 0;
-  } */
 
   .masthead-subheading{
     font-size: 60px;
@@ -1130,7 +1118,8 @@
   }
 
   #our-work-container{
-    padding: 0 75px !important;
+    padding: 0 !important;
+    margin-left: -220px;
   }
 
   /* ======== */
@@ -1174,6 +1163,10 @@
   }
 /* ============== */
 
+#section-journal{
+  padding: 0;
+}
+
 #section-journal .container{
   max-width: none !important;
   padding: 0;
@@ -1182,14 +1175,14 @@
 }
 
 #journal-title{
-  margin-left: 200px !important;
+  margin-left: 50px !important;
   align-items: center;
   justify-content: center;
 }
 
 
 #col1-journal, #col2-journal, #col3-journal{
-  margin-left: 200px;
+  margin-left: 50px;
 }
 
 #row-content-journal{
@@ -1238,14 +1231,13 @@
   }
 
   #swiper-section5{
-    padding: 0 90px;
-    margin-left: 30%;
+    padding: 0 80px;
 
   }
 
   .number{
     margin-top: -32px;
-    margin-left: 635px;
+    margin-left: 855px;
   
   }
 
@@ -1278,7 +1270,7 @@
 
       .slider-number{
         max-width: 30px;
-        margin-left: 650px;
+        margin-left: 850px;
       }
 
       #footer-content{
@@ -1326,11 +1318,6 @@
       display: block !important;
       padding: 0 50px!important;
       max-width: none !important;
-      /* padding-left: 40px !; */
-      /* margin: auto; */
-      /* margin-left: -140px !important; */
-      /* align-items: center;
-      justify-content: center; */
     }
 
     footer{
@@ -1338,8 +1325,8 @@
     }
 
     .address-link{
-      margin-top: 30px;
-      margin-left: -164px;
+      /* margin-top: 30px; */
+      margin-left: 0px;
     }
 
     .address-link .marker-content{
@@ -1351,6 +1338,14 @@
       height: 23px !important;
       /* font-size: 28px; */
       margin-left: 30px;
+    }
+
+    #about-journal, #services-work, #address-footer{
+      margin-left: 75px;
+    }
+
+    #btn-footer{
+      margin-top: 60px;
     }
 
 }
@@ -1366,10 +1361,6 @@
       #about-col{
         padding: 0 45px;
       }
-
-      /* .about-main{
-        padding: 0 15px !important;
-      } */
 
       .ambitious-title{
         margin-left: 0;
@@ -1436,11 +1427,6 @@
       }
 
 
-      /* #our-work-title {
-      margin-left: 395px;
-      text-align: center;
-      } */
-
       #our-services-title{
       margin-left: 264px !important;
       text-align: center;
@@ -1448,7 +1434,7 @@
 
 
       #swiper-slide{
-        margin-left: 12px !important;
+        margin-left: -20px !important;
       }
 
       #swiper-section5{
@@ -1465,6 +1451,9 @@
       #section-journal{
         padding: 0 150px;
       }
+      #our-work-container{
+        padding: 0;
+      }
 
       #our-work-title{
         margin-left: -50px;
@@ -1472,7 +1461,6 @@
 
       #our-work-title {
         margin-left: 395px;
-        /* margin-right: 395px; */
       }
 
       #swiper-slide{
